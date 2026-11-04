@@ -7,10 +7,10 @@
 <meta name="description" content="AstosStudio is an independent game studio from the Netherlands, making small games for iPhone and Android.">
 <meta property="og:title" content="AstosStudio">
 <meta property="og:description" content="Small games for iPhone and Android, made by one developer in the Netherlands.">
-<meta property="og:url" content="https://astosstudio.com/">
+<meta property="og:url" content="https://www.astosstudio.com/">
 <meta property="og:type" content="website">
 <meta name="color-scheme" content="light dark">
-<link rel="canonical" href="https://astosstudio.com/">
+<link rel="canonical" href="https://www.astosstudio.com/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23182033'/%3E%3Crect x='3' y='3' width='4' height='4' fill='%232F4BFF'/%3E%3Crect x='9' y='3' width='4' height='4' fill='%23F2F4F8'/%3E%3Crect x='3' y='9' width='4' height='4' fill='%23F2F4F8'/%3E%3Crect x='9' y='9' width='4' height='4' fill='%232F4BFF'/%3E%3C/svg%3E">
 <style>
 /* Archivo (SIL Open Font License), self-hosted: no requests to Google, so no visitor data leaves this site */
@@ -30,7 +30,14 @@
   --muted: #5D667C;
   --tile: #2F4BFF;
   --coin: #FFC23D;
+  --ring: #D99A00;
   --line: #D3D9E4;
+  --raised: #FFFFFF;
+  --bad: #E5484D;
+  --night: #111A33;
+  --night-ink: #E9EDF5;
+  --night-muted: #A3ACC2;
+  --night-line: #26304A;
   --font: "Archivo", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
@@ -40,12 +47,18 @@
     --ink: #E9EDF5;
     --muted: #9AA3B8;
     --tile: #6F86FF;
+    --ring: #FFC23D;
     --line: #26304A;
+    --raised: #151D33;
+    --bad: #FF6B6E;
+    --night: #080D1A;
+    --night-line: #1E2742;
   }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body {
   margin: 0;
   background: var(--paper);
@@ -56,84 +69,176 @@ body {
   font-stretch: 100%;
 }
 a { color: inherit; }
-a:focus-visible { outline: 3px solid var(--tile); outline-offset: 3px; border-radius: 2px; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--tile); outline-offset: 3px; border-radius: 4px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-.wrap { width: min(1080px, 100% - 2.5rem); margin-inline: auto; }
+.wrap { width: min(1200px, 100% - 3rem); margin-inline: auto; }
 
-/* Header */
+/* ---------- Header ---------- */
 .top { display: flex; align-items: baseline; justify-content: space-between; padding-block: 1.75rem; gap: 1rem; }
 .mark { font-weight: 800; font-stretch: 125%; font-size: 1.125rem; letter-spacing: -0.01em; text-decoration: none; }
-.top nav { display: flex; gap: 1.5rem; }
+.top nav { display: flex; gap: 1.75rem; }
 .top nav a { text-decoration: none; color: var(--muted); }
 .top nav a:hover { color: var(--ink); }
 
-/* Hero: the logo is a nonogram, with real clues */
-.hero { padding-block: clamp(2.5rem, 8vw, 6rem) clamp(3rem, 8vw, 5.5rem); }
+/* ---------- Hero: the logo is a real nonogram ---------- */
+.hero { padding-block: clamp(2rem, 6vw, 4.5rem) clamp(3.5rem, 8vw, 6rem); }
 .nono {
   display: grid;
   grid-template-columns: max-content repeat(29, minmax(0, 1fr));
-  gap: 3px;
-  max-width: 920px;
+  gap: clamp(2px, 0.35vw, 4px);
   font-variant-numeric: tabular-nums;
 }
 .clue-col {
   display: flex; flex-direction: column; justify-content: flex-end; align-items: center;
-  font-size: clamp(0.55rem, 1.2vw, 0.78rem); line-height: 1.15; color: var(--muted);
-  padding-bottom: 0.35rem;
+  font-size: clamp(0.55rem, 1.1vw, 0.95rem); line-height: 1.15; color: var(--muted);
+  padding-bottom: 0.4rem;
 }
 .clue-row {
-  display: flex; align-items: center; justify-content: flex-end; gap: 0.45em;
-  font-size: clamp(0.6rem, 1.3vw, 0.85rem); color: var(--muted);
-  padding-right: 0.6rem;
+  display: flex; align-items: center; justify-content: flex-end; gap: 0.5em;
+  font-size: clamp(0.6rem, 1.2vw, 1rem); color: var(--muted);
+  padding-right: 0.75rem;
 }
-.cell { aspect-ratio: 1; background: var(--cell); border-radius: 2px; transition: background-color 180ms ease; }
+.cell { aspect-ratio: 1; background: var(--cell); border-radius: 3px; transition: background-color 180ms ease, transform 180ms ease; }
 .cell.on { background: var(--tile); }
 
-.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-
-.lede {
-  margin: clamp(2rem, 5vw, 3rem) 0 0;
-  max-width: 30ch;
-  font-size: clamp(1.4rem, 3.2vw, 2.1rem);
-  line-height: 1.2;
-  font-weight: 500;
-  font-stretch: 105%;
-  letter-spacing: -0.01em;
+.hero-foot {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 2rem;
+  margin-top: clamp(2.25rem, 5vw, 3.5rem);
 }
+.lede {
+  margin: 0; max-width: 24ch;
+  font-size: clamp(1.6rem, 3.6vw, 2.6rem); line-height: 1.12;
+  font-weight: 600; font-stretch: 108%; letter-spacing: -0.015em;
+}
+.soon { margin: 0; color: var(--muted); text-align: right; }
+.soon strong { display: block; color: var(--ink); font-weight: 700; }
 
-/* Sections */
-section { padding-block: clamp(2.5rem, 6vw, 4.5rem); border-top: 1px solid var(--line); }
-h2 { margin: 0 0 1.75rem; font-size: 1rem; font-weight: 700; font-stretch: 125%; color: var(--muted); }
+/* ---------- Game showcases ---------- */
+.game { padding-block: clamp(4rem, 9vw, 7.5rem); }
+.game-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: center; }
+.game h2 {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2.6rem, 6.5vw, 5rem); line-height: 0.98;
+  font-weight: 800; font-stretch: 125%; letter-spacing: -0.03em;
+}
+.game .pitch { margin: 0 0 1.75rem; max-width: 38ch; font-size: 1.2rem; line-height: 1.5; }
+.facts { margin: 0 0 2rem; padding: 0; list-style: none; display: grid; gap: 0.85rem; max-width: 40ch; }
+.facts li { display: grid; grid-template-columns: 1.1rem minmax(0, 1fr); gap: 0.75rem; align-items: baseline; }
+.facts li::before { content: ""; width: 0.7rem; height: 0.7rem; border-radius: 2px; background: var(--tile); transform: translateY(0.05rem); }
+.status { display: inline-flex; align-items: center; gap: 0.55rem; font-size: 0.95rem; font-weight: 600; }
+.status::before { content: ""; width: 0.65rem; height: 0.65rem; border-radius: 50%; background: var(--coin); }
 
-.games { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem 4rem; margin: 0; padding: 0; list-style: none; }
-.games h3 { margin: 0 0 0.5rem; font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; font-stretch: 118%; line-height: 1.1; letter-spacing: -0.015em; }
-.games p { margin: 0 0 0.9rem; max-width: 42ch; color: var(--muted); }
-.status { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; font-weight: 600; }
-.status::before { content: ""; width: 0.6rem; height: 0.6rem; border-radius: 50%; background: var(--coin); }
+/* Laatste Linie: dark band */
+.night { background: var(--night); color: var(--night-ink); }
+.night .pitch { color: var(--night-ink); }
+.night .facts { color: var(--night-muted); }
+.night .facts li::before { background: var(--coin); }
 
-.support p { margin: 0 0 1.5rem; max-width: 52ch; color: var(--muted); }
+.phone {
+  justify-self: center;
+  width: min(320px, 100%);
+  padding: 11px;
+  border-radius: 42px;
+  background: #05080F;
+  box-shadow: 0 0 0 1px var(--night-line), 0 30px 80px -20px rgba(0, 0, 0, 0.6);
+}
+.phone canvas { display: block; width: 100%; aspect-ratio: 1 / 2; border-radius: 32px; background: #0B1226; }
+
+/* Daily Puzzle Club: playable Binairo */
+.puzzle-side { display: grid; justify-items: center; gap: 1rem; }
+.board-wrap {
+  background: var(--raised);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: clamp(1rem, 3vw, 1.6rem);
+  width: min(440px, 100%);
+}
+.board-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem; gap: 1rem; }
+.board-head b { font-stretch: 112%; font-weight: 800; }
+.board-head span { color: var(--muted); font-variant-numeric: tabular-nums; }
+.board { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; }
+.bcell {
+  aspect-ratio: 1; border: 0; padding: 0; border-radius: 8px;
+  background: var(--cell); cursor: pointer; display: grid; place-items: center;
+  font: inherit; color: inherit;
+  transition: background-color 120ms ease, box-shadow 120ms ease;
+}
+.bcell:hover { box-shadow: inset 0 0 0 2px var(--line); }
+.bcell.fixed { cursor: default; background: transparent; box-shadow: inset 0 0 0 2px var(--cell); }
+.bcell::after { content: ""; width: 56%; height: 56%; border-radius: 50%; }
+.bcell[data-v="1"]::after { background: var(--tile); }
+.bcell[data-v="0"]::after { box-shadow: inset 0 0 0 0.32rem var(--ring); }
+.bcell.bad { background: color-mix(in srgb, var(--bad) 18%, var(--cell)); box-shadow: inset 0 0 0 2px var(--bad); }
+.board.solved .bcell { background: color-mix(in srgb, var(--tile) 12%, var(--cell)); }
+.board-foot { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1rem; min-height: 2.5rem; }
+.board-msg { margin: 0; font-size: 0.95rem; color: var(--muted); }
+.board-msg.win { color: var(--ink); font-weight: 600; }
+.reset {
+  border: 1px solid var(--line); background: transparent; color: var(--ink);
+  font: inherit; font-size: 0.9rem; padding: 0.45rem 0.9rem; border-radius: 999px; cursor: pointer; white-space: nowrap;
+}
+.reset:hover { border-color: var(--muted); }
+.how { margin: 0; max-width: 44ch; color: var(--muted); font-size: 0.95rem; text-align: center; }
+
+.types { display: flex; flex-wrap: wrap; gap: 1.5rem 2rem; margin: 0 0 2rem; padding: 0; list-style: none; }
+.types li { display: flex; align-items: center; gap: 0.7rem; font-weight: 600; }
+.types svg { width: 2.25rem; height: 2.25rem; flex: none; }
+
+/* ---------- Studio principles ---------- */
+.studio { padding-block: clamp(4rem, 8vw, 6.5rem); border-top: 1px solid var(--line); }
+.studio h2, .support h2 {
+  margin: 0 0 clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.05;
+  font-weight: 800; font-stretch: 120%; letter-spacing: -0.025em;
+}
+.principles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem; margin: 0; padding: 0; list-style: none; }
+.principles h3 { margin: 0 0 0.6rem; font-size: 1.35rem; font-weight: 700; font-stretch: 110%; line-height: 1.2; }
+.principles p { margin: 0; color: var(--muted); max-width: 34ch; }
+.principles li { padding-top: 1.25rem; border-top: 3px solid var(--tile); }
+
+/* ---------- Support ---------- */
+.support { padding-block: clamp(4rem, 8vw, 6.5rem); border-top: 1px solid var(--line); }
+.support-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+.support-grid > div > p { margin: 0 0 1.75rem; max-width: 48ch; color: var(--muted); font-size: 1.1rem; }
 .mail {
   display: inline-block;
-  font-size: clamp(1.35rem, 4.6vw, 2.75rem);
+  font-size: clamp(1.35rem, 4.2vw, 2.75rem);
   font-weight: 800; font-stretch: 112%; letter-spacing: -0.02em; line-height: 1.1;
   text-decoration: underline; text-decoration-thickness: 0.08em; text-underline-offset: 0.18em;
   text-decoration-color: var(--tile);
   overflow-wrap: anywhere;
 }
 .mail:hover { color: var(--tile); }
+.include { background: var(--raised); border: 1px solid var(--line); border-radius: 16px; padding: 1.5rem 1.6rem; }
+.include h3 { margin: 0 0 0.9rem; font-size: 1rem; font-weight: 700; }
+.include ul { margin: 0; padding-left: 1.1rem; color: var(--muted); display: grid; gap: 0.45rem; }
 
 footer { border-top: 1px solid var(--line); padding-block: 2rem 2.5rem; color: var(--muted); font-size: 0.9rem; }
 footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.75rem 2rem; }
 footer p { margin: 0; }
+footer nav { display: flex; gap: 1.5rem; }
+footer a { text-decoration: none; }
+footer a:hover { color: var(--ink); text-decoration: underline; }
 
+/* ---------- Responsive ---------- */
+@media (max-width: 860px) {
+  .game-grid, .support-grid { grid-template-columns: 1fr; }
+  .principles { grid-template-columns: 1fr; gap: 2rem; }
+  .hero-foot { grid-template-columns: 1fr; }
+  .soon { text-align: left; }
+  .dpc .puzzle-side { order: 2; }
+}
 @media (max-width: 640px) {
-  .nono { gap: 2px; grid-template-columns: repeat(29, minmax(0, 1fr)); }
+  .wrap { width: min(1200px, 100% - 2.5rem); }
+  .nono { grid-template-columns: repeat(29, minmax(0, 1fr)); gap: 2px; }
   .clue-col, .clue-row { display: none; }
-  .games { grid-template-columns: 1fr; }
+  .cell { border-radius: 2px; }
   .top nav { gap: 1rem; }
+  .top nav a:first-child { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .cell { transition: none; }
+  .cell, .bcell { transition: none; }
 }
 </style>
 </head>
@@ -142,41 +247,117 @@ footer p { margin: 0; }
 <header class="wrap top">
   <a class="mark" href="/">astos studio</a>
   <nav aria-label="Main">
-    <a href="#games">Games</a>
+    <a href="#studio">Studio</a>
+    <a href="#laatste-linie">Games</a>
     <a href="#support">Support</a>
   </nav>
 </header>
 
 <main>
+  <!-- Hero -->
   <div class="wrap hero">
     <h1 class="sr-only">AstosStudio</h1>
     <div class="nono" id="nono" role="img" aria-label="The word ASTOS drawn as a solved nonogram puzzle"></div>
-    <p class="lede">Small games for iPhone and Android, made by one developer in the Netherlands.</p>
+    <div class="hero-foot">
+      <p class="lede">Small games for iPhone and Android, made by one developer in the Netherlands.</p>
+      <p class="soon"><strong>Coming soon</strong>App Store and Google Play</p>
+    </div>
   </div>
 
-  <section id="games">
+  <!-- Laatste Linie -->
+  <section class="game night" id="laatste-linie" aria-labelledby="ll-title">
+    <div class="wrap game-grid">
+      <div>
+        <h2 id="ll-title">Laatste Linie</h2>
+        <p class="pitch">Wave after wave marches down the lanes toward your wall. You have one turret. Make it count.</p>
+        <ul class="facts">
+          <li>Missions with hand-built waves</li>
+          <li>Endless mode with turret upgrades from the shop</li>
+          <li>Manual aim when you want full control</li>
+        </ul>
+        <span class="status">In development</span>
+      </div>
+      <div class="phone">
+        <canvas id="ll-canvas" role="img" aria-label="Animated scene from Laatste Linie: a turret on a wall shooting at enemies coming down three lanes"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Daily Puzzle Club -->
+  <section class="game dpc" id="daily-puzzle-club" aria-labelledby="dpc-title">
+    <div class="wrap game-grid">
+      <div class="puzzle-side">
+        <div class="board-wrap">
+          <div class="board-head"><b>Try a Binairo</b><span id="timer">0:00</span></div>
+          <div class="board" id="board" role="grid" aria-label="Binairo puzzle, 6 by 6"></div>
+          <div class="board-foot">
+            <p class="board-msg" id="board-msg" aria-live="polite">Tap a square to begin.</p>
+            <button class="reset" id="reset" type="button">Start over</button>
+          </div>
+        </div>
+        <p class="how">Tap once for a dot, twice for a ring. Every row and column holds three of each, and never three of the same in a row.</p>
+      </div>
+      <div>
+        <h2 id="dpc-title">Daily Puzzle Club</h2>
+        <p class="pitch">Three new logic puzzles every day. Everyone gets the same set, and there are no ads.</p>
+        <ul class="types" aria-label="Puzzle types">
+          <li>
+            <svg viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="8" fill="var(--cell)"/><circle cx="12" cy="12" r="5" fill="var(--tile)"/><circle cx="24" cy="12" r="4" fill="none" stroke="var(--ring)" stroke-width="2.5"/><circle cx="12" cy="24" r="4" fill="none" stroke="var(--ring)" stroke-width="2.5"/><circle cx="24" cy="24" r="5" fill="var(--tile)"/></svg>
+            Binairo
+          </li>
+          <li>
+            <svg viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="8" fill="var(--cell)"/><rect x="5" y="5" width="13" height="26" rx="3" fill="var(--tile)" opacity=".25"/><rect x="18" y="5" width="13" height="13" rx="3" fill="var(--coin)" opacity=".45"/><path d="M19.5 26.5h9l1-7-3.2 2.6L24 17.5l-2.3 4.6-3.2-2.6z" fill="var(--ink)"/></svg>
+            Queens
+          </li>
+          <li>
+            <svg viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="8" fill="var(--cell)"/><rect x="7" y="7" width="6" height="6" rx="1.5" fill="var(--tile)"/><rect x="15" y="7" width="6" height="6" rx="1.5" fill="var(--tile)"/><rect x="23" y="15" width="6" height="6" rx="1.5" fill="var(--tile)"/><rect x="7" y="15" width="6" height="6" rx="1.5" fill="var(--tile)"/><rect x="15" y="23" width="6" height="6" rx="1.5" fill="var(--tile)"/><rect x="23" y="23" width="6" height="6" rx="1.5" fill="var(--tile)"/></svg>
+            Nonogram
+          </li>
+        </ul>
+        <span class="status">In development</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Studio -->
+  <section class="studio" id="studio" aria-labelledby="studio-title">
     <div class="wrap">
-      <h2>Games</h2>
-      <ul class="games">
+      <h2 id="studio-title">How we make games</h2>
+      <ul class="principles">
         <li>
-          <h3>Laatste Linie</h3>
-          <p>Hold the wall against wave after wave. A lane-defense game with upgrades, missions and an endless mode.</p>
-          <span class="status">In development</span>
+          <h3>Fair by design</h3>
+          <p>No pay-to-win walls and no dark patterns. You decide what a game is worth to you.</p>
         </li>
         <li>
-          <h3>Daily Puzzle Club</h3>
-          <p>Three new logic puzzles every day: Binairo, Queens and Nonogram. The same puzzles for everyone, and no ads.</p>
-          <span class="status">In development</span>
+          <h3>Made for short sessions</h3>
+          <p>A wave on the train, a puzzle with your coffee. Every game is built for iPhone and Android from the start.</p>
+        </li>
+        <li>
+          <h3>One maker, one inbox</h3>
+          <p>AstosStudio is one developer in the Netherlands. Your message goes straight to the person who made the game.</p>
         </li>
       </ul>
     </div>
   </section>
 
-  <section id="support" class="support">
+  <!-- Support -->
+  <section class="support" id="support" aria-labelledby="support-title">
     <div class="wrap">
-      <h2>Support</h2>
-      <p>Questions, bugs or feedback about one of our games? Email us and tell us which game, which device and what happened. A screenshot helps.</p>
-      <a class="mail" href="mailto:support@astosstudio.com">support@astosstudio.com</a>
+      <h2 id="support-title">Support</h2>
+      <div class="support-grid">
+        <div>
+          <p>Questions, bugs or feedback about one of our games? Send an email and you’ll hear back from the developer.</p>
+          <a class="mail" href="mailto:support@astosstudio.com">support@astosstudio.com</a>
+        </div>
+        <div class="include">
+          <h3>Helpful to mention</h3>
+          <ul>
+            <li>Which game it’s about</li>
+            <li>Your phone model and iOS or Android version</li>
+            <li>What happened, and a screenshot if you can</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 </main>
@@ -185,13 +366,20 @@ footer p { margin: 0; }
   <div class="wrap">
     <p>© 2026 AstosStudio</p>
     <!-- TODO: KvK-nummer toevoegen, bijv. <p>KvK 12345678</p> -->
-    <p><a href="mailto:support@astosstudio.com">support@astosstudio.com</a></p>
+    <!-- TODO: link naar privacybeleid toevoegen zodra privacy.html bestaat -->
+    <nav aria-label="Footer">
+      <a href="#laatste-linie">Laatste Linie</a>
+      <a href="#daily-puzzle-club">Daily Puzzle Club</a>
+      <a href="mailto:support@astosstudio.com">Support</a>
+    </nav>
   </div>
 </footer>
 
 <script>
+var STILL = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ---------- Hero nonogram ---------- */
 (function () {
-  // 5×5 letters; the logo is a real, solvable nonogram
   var F = {
     A: [".###.", "#...#", "#####", "#...#", "#...#"],
     S: [".####", "#....", ".###.", "....#", "####."],
@@ -208,37 +396,26 @@ footer p { margin: 0; }
     rows.push(line);
   }
   var W = rows[0].length;
-
   function runs(arr) {
     var out = [], n = 0;
     arr.forEach(function (v) { if (v) n++; else if (n) { out.push(n); n = 0; } });
     if (n) out.push(n);
     return out.length ? out : [0];
   }
-
+  function clue(cls, nums) {
+    var el = document.createElement("div");
+    el.className = cls;
+    el.setAttribute("aria-hidden", "true");
+    nums.forEach(function (n) { var s = document.createElement("span"); s.textContent = n; el.appendChild(s); });
+    return el;
+  }
   var grid = document.getElementById("nono");
   var frag = document.createDocumentFragment();
-
-  var corner = document.createElement("div");
-  corner.className = "clue-row";
-  corner.setAttribute("aria-hidden", "true");
-  frag.appendChild(corner);
-  for (var c = 0; c < W; c++) {
-    var col = rows.map(function (row) { return row[c]; });
-    var el = document.createElement("div");
-    el.className = "clue-col";
-    el.setAttribute("aria-hidden", "true");
-    runs(col).forEach(function (n) { var s = document.createElement("span"); s.textContent = n; el.appendChild(s); });
-    frag.appendChild(el);
-  }
-
+  frag.appendChild(clue("clue-row", []));
+  for (var c = 0; c < W; c++) frag.appendChild(clue("clue-col", runs(rows.map(function (row) { return row[c]; }))));
   var cells = [];
   rows.forEach(function (row, r) {
-    var rc = document.createElement("div");
-    rc.className = "clue-row";
-    rc.setAttribute("aria-hidden", "true");
-    runs(row).forEach(function (n) { var s = document.createElement("span"); s.textContent = n; rc.appendChild(s); });
-    frag.appendChild(rc);
+    frag.appendChild(clue("clue-row", runs(row)));
     row.forEach(function (v, c) {
       var cell = document.createElement("div");
       cell.className = "cell";
@@ -247,13 +424,279 @@ footer p { margin: 0; }
     });
   });
   grid.appendChild(frag);
-
-  // One moment of motion: the puzzle solves itself, left to right
-  var still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (still) { cells.forEach(function (x) { x.el.classList.add("on"); }); return; }
+  if (STILL) { cells.forEach(function (x) { x.el.classList.add("on"); }); return; }
   cells.forEach(function (x) {
     setTimeout(function () { x.el.classList.add("on"); }, 250 + x.c * 38 + x.r * 22);
   });
+})();
+
+/* ---------- Laatste Linie scene ---------- */
+(function () {
+  var canvas = document.getElementById("ll-canvas");
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext("2d");
+  var W = 300, H = 600, dpr = Math.min(window.devicePixelRatio || 1, 2);
+  canvas.width = W * dpr; canvas.height = H * dpr;
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+  var C = { bg1: "#0B1226", bg2: "#18265A", lane: "rgba(255,255,255,0.09)", wall: "#2F4BFF", wallDark: "#2238C9",
+            ground: "#0A0F1F", enemy: "#F0506E", enemyDark: "#B8344F", big: "#9B5CFF", bigDark: "#6B3BD1",
+            bullet: "#FFC23D", turret: "#E9EDF5", hud: "#E9EDF5", pill: "#1A2550" };
+  var lanes = [W / 6, W / 2, 5 * W / 6];
+  var wallY = H - 108;
+  var tur = { x: W / 2, y: wallY - 2, ang: -Math.PI / 2, kick: 0 };
+  var enemies = [], bullets = [], parts = [], pops = [];
+  var coins = 1240, kills = 0, wave = 7, spawnT = 0.2, fireT = 0, shake = 0, flash = 0, scroll = 0;
+
+  function spawn(y) {
+    var lane = Math.floor(Math.random() * 3), big = Math.random() < 0.2;
+    enemies.push({ x: lanes[lane] + (Math.random() * 16 - 8), y: y == null ? -30 : y, big: big,
+                   v: big ? 26 : 40 + Math.random() * 18, hp: big ? 7 : 3, max: big ? 7 : 3, s: big ? 40 : 28, wob: Math.random() * 6 });
+  }
+  function burst(x, y, n, col, sp) {
+    for (var i = 0; i < n; i++) {
+      var a = Math.random() * Math.PI * 2, v = (0.3 + Math.random()) * sp;
+      parts.push({ x: x, y: y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, life: 0.35 + Math.random() * 0.4, max: 0.75, col: col, r: 1.5 + Math.random() * 3 });
+    }
+  }
+  function angDiff(a, b) { var d = b - a; while (d > Math.PI) d -= 2 * Math.PI; while (d < -Math.PI) d += 2 * Math.PI; return d; }
+
+  function step(dt) {
+    scroll += dt * 40;
+    spawnT -= dt;
+    if (spawnT <= 0) { spawn(); spawnT = 0.38 + Math.random() * 0.5; }
+    var target = null;
+    enemies.forEach(function (e) { e.y += e.v * dt; e.wob += dt * 7; if (e.y > 70 && (!target || e.y > target.y)) target = e; });
+    if (target) {
+      var want = Math.atan2(target.y - tur.y, target.x - tur.x);
+      var d = angDiff(tur.ang, want);
+      tur.ang += d * Math.min(1, dt * 14);
+      fireT -= dt;
+      if (fireT <= 0 && Math.abs(d) < 0.2) {
+        var bx = tur.x + Math.cos(tur.ang) * 34, by = tur.y + Math.sin(tur.ang) * 34;
+        bullets.push({ x: bx, y: by, vx: Math.cos(tur.ang) * 620, vy: Math.sin(tur.ang) * 620 });
+        fireT = 0.17; tur.kick = 1;
+        burst(bx, by, 4, C.bullet, 70);
+      }
+    }
+    tur.kick = Math.max(0, tur.kick - dt * 9);
+    bullets.forEach(function (b) { b.x += b.vx * dt; b.y += b.vy * dt; });
+    bullets = bullets.filter(function (b) {
+      for (var i = 0; i < enemies.length; i++) {
+        var e = enemies[i];
+        if (Math.abs(b.x - e.x) < e.s / 2 + 3 && Math.abs(b.y - e.y) < e.s / 2 + 3) {
+          e.hp--; e.hit = 0.08; burst(b.x, b.y, 4, C.bullet, 100);
+          if (e.hp <= 0) {
+            var gain = e.max * 5;
+            burst(e.x, e.y, e.big ? 26 : 16, e.big ? C.big : C.enemy, e.big ? 170 : 140);
+            coins += gain; kills++;
+            pops.push({ x: e.x, y: e.y, life: 0.9, txt: "+" + gain });
+            if (kills % 12 === 0) wave++;
+            enemies.splice(i, 1);
+          }
+          return false;
+        }
+      }
+      return b.y > -20 && b.x > -20 && b.x < W + 20;
+    });
+    enemies = enemies.filter(function (e) {
+      if (e.hit) e.hit = Math.max(0, e.hit - dt);
+      if (e.y + e.s / 2 >= wallY) { shake = 0.25; flash = 1; burst(e.x, wallY, 14, e.big ? C.big : C.enemy, 120); return false; }
+      return true;
+    });
+    parts.forEach(function (p) { p.x += p.vx * dt; p.y += p.vy * dt; p.vx *= 0.94; p.vy *= 0.94; p.life -= dt; });
+    parts = parts.filter(function (p) { return p.life > 0; });
+    pops.forEach(function (p) { p.y -= 28 * dt; p.life -= dt; });
+    pops = pops.filter(function (p) { return p.life > 0; });
+    shake = Math.max(0, shake - dt); flash = Math.max(0, flash - dt * 3);
+  }
+
+  function rr(x, y, w, h, r) { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); }
+
+  function draw() {
+    ctx.save();
+    if (shake > 0) ctx.translate((Math.random() - 0.5) * 24 * shake, (Math.random() - 0.5) * 24 * shake);
+    var g = ctx.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, C.bg1); g.addColorStop(1, C.bg2);
+    ctx.fillStyle = g; ctx.fillRect(-10, -10, W + 20, H + 20);
+    // lanes: subtle road tiles and moving dividers
+    ctx.fillStyle = "rgba(255,255,255,0.025)";
+    ctx.fillRect(W / 3 + 1, 0, W / 3 - 2, wallY);
+    ctx.strokeStyle = C.lane; ctx.lineWidth = 2; ctx.setLineDash([12, 16]); ctx.lineDashOffset = -scroll;
+    [W / 3, 2 * W / 3].forEach(function (x) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, wallY - 6); ctx.stroke(); });
+    ctx.setLineDash([]); ctx.lineDashOffset = 0;
+    // enemies
+    enemies.forEach(function (e) {
+      var s = e.s, x = e.x - s / 2, y = e.y - s / 2 + Math.sin(e.wob) * 1.6;
+      ctx.fillStyle = e.big ? C.bigDark : C.enemyDark; rr(x, y + 4, s, s, 8); ctx.fill();
+      ctx.fillStyle = e.hit ? "#FFFFFF" : (e.big ? C.big : C.enemy); rr(x, y, s, s, 8); ctx.fill();
+      ctx.fillStyle = e.hit ? C.enemy : "#FFFFFF";
+      var ew = e.big ? 5 : 4, eh = e.big ? 7 : 6;
+      ctx.fillRect(e.x - s * 0.2 - ew / 2, y + s * 0.34, ew, eh); ctx.fillRect(e.x + s * 0.2 - ew / 2, y + s * 0.34, ew, eh);
+      if (e.hp < e.max) {
+        ctx.fillStyle = "rgba(255,255,255,0.18)"; rr(x, y - 9, s, 4, 2); ctx.fill();
+        ctx.fillStyle = C.bullet; rr(x, y - 9, s * e.hp / e.max, 4, 2); ctx.fill();
+      }
+    });
+    // bullets
+    bullets.forEach(function (b) {
+      ctx.strokeStyle = "rgba(255,194,61,0.35)"; ctx.lineWidth = 4;
+      ctx.beginPath(); ctx.moveTo(b.x, b.y); ctx.lineTo(b.x - b.vx * 0.03, b.y - b.vy * 0.03); ctx.stroke();
+      ctx.fillStyle = C.bullet; ctx.beginPath(); ctx.arc(b.x, b.y, 3.6, 0, Math.PI * 2); ctx.fill();
+    });
+    // particles
+    parts.forEach(function (p) { ctx.globalAlpha = Math.max(0, p.life / p.max); ctx.fillStyle = p.col; ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill(); });
+    ctx.globalAlpha = 1;
+    // coin pop-ups
+    ctx.font = "800 13px Archivo, system-ui, sans-serif"; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    pops.forEach(function (p) { ctx.globalAlpha = Math.min(1, p.life * 2); ctx.fillStyle = C.bullet; ctx.fillText(p.txt, p.x, p.y); });
+    ctx.globalAlpha = 1; ctx.textAlign = "left";
+    // wall
+    ctx.fillStyle = C.ground; ctx.fillRect(-10, wallY + 33, W + 20, H);
+    for (var row = 0; row < 3; row++) {
+      var off = row % 2 ? 0 : 16;
+      for (var bx = -16 + off; bx < W + 16; bx += 32) {
+        ctx.fillStyle = row === 0 ? C.wall : C.wallDark;
+        rr(bx + 1, wallY + row * 11 + 1, 30, 9, 2); ctx.fill();
+      }
+    }
+    if (flash > 0) { ctx.fillStyle = "rgba(240,80,110," + (flash * 0.4) + ")"; ctx.fillRect(0, wallY, W, 33); }
+    // turret
+    ctx.save(); ctx.translate(tur.x, tur.y); ctx.rotate(tur.ang);
+    ctx.fillStyle = C.turret; rr(8 - tur.kick * 5, -6, 30, 12, 3); ctx.fill();
+    ctx.fillStyle = C.bullet; ctx.fillRect(32 - tur.kick * 5, -6, 4, 12);
+    ctx.restore();
+    ctx.fillStyle = "#1B2552"; ctx.beginPath(); ctx.arc(tur.x, tur.y, 22, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = C.turret; ctx.beginPath(); ctx.arc(tur.x, tur.y, 14, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = C.wall; ctx.beginPath(); ctx.arc(tur.x, tur.y, 6, 0, Math.PI * 2); ctx.fill();
+    // HUD band: enemies emerge from under it
+    var hg = ctx.createLinearGradient(0, 0, 0, 78);
+    hg.addColorStop(0, C.bg1); hg.addColorStop(0.7, C.bg1); hg.addColorStop(1, "rgba(11,18,38,0)");
+    ctx.fillStyle = hg; ctx.fillRect(-10, -10, W + 20, 88);
+    ctx.fillStyle = C.pill; rr(14, 18, 92, 32, 16); ctx.fill(); rr(W - 122, 18, 108, 32, 16); ctx.fill();
+    ctx.fillStyle = C.hud; ctx.font = "700 14px Archivo, system-ui, sans-serif"; ctx.textBaseline = "middle";
+    ctx.fillText("Wave " + wave, 30, 34);
+    ctx.fillStyle = C.bullet; ctx.beginPath(); ctx.arc(W - 103, 34, 7, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = C.hud; ctx.textAlign = "right"; ctx.fillText(coins.toLocaleString("en-US"), W - 28, 34); ctx.textAlign = "left";
+    // bottom bar
+    ctx.fillStyle = C.pill; rr(14, H - 54, W - 28, 36, 18); ctx.fill();
+    ctx.fillStyle = "rgba(233,237,245,0.8)"; ctx.font = "600 12px Archivo, system-ui, sans-serif"; ctx.textAlign = "center";
+    ctx.fillText("Endless mode", W / 2, H - 36); ctx.textAlign = "left";
+    ctx.restore();
+  }
+
+  // pre-warm so the first frame already looks like a game in progress
+  for (var i = 0; i < 5; i++) spawn(80 + i * 80);
+  for (var t = 0; t < 75; t++) step(1 / 30);
+
+  var running = false, last = 0;
+  function loop(now) {
+    if (!running) return;
+    var dt = Math.min(0.05, (now - last) / 1000 || 0); last = now;
+    step(dt); draw();
+    requestAnimationFrame(loop);
+  }
+  function start() { if (running || STILL) return; running = true; last = performance.now(); requestAnimationFrame(loop); }
+  function stop() { running = false; }
+
+  var go = function () {
+    draw();
+    if (STILL) return;
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(function (entries) { entries[0].isIntersecting ? start() : stop(); }, { threshold: 0.1 }).observe(canvas);
+    } else start();
+    document.addEventListener("visibilitychange", function () { if (document.hidden) stop(); else if (canvas.getBoundingClientRect().top < innerHeight) start(); });
+  };
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(go); else go();
+})();
+
+/* ---------- Playable Binairo ---------- */
+(function () {
+  var PUZZLE = [".0.011", ".1.0.0", "..1..1", "...01.", "1.0..1", "1..1.."];
+  var N = 6, board = document.getElementById("board"), msg = document.getElementById("board-msg");
+  var timerEl = document.getElementById("timer"), resetBtn = document.getElementById("reset");
+  var state = [], fixed = [], btns = [], t0 = null, tick = null, done = false;
+
+  function label(r, c) {
+    var v = state[r][c];
+    return "Row " + (r + 1) + ", column " + (c + 1) + ": " + (v === 1 ? "dot" : v === 0 ? "ring" : "empty") + (fixed[r][c] ? ", given" : "");
+  }
+  function fmt(s) { return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); }
+
+  function build() {
+    board.innerHTML = ""; state = []; fixed = []; btns = []; done = false;
+    board.classList.remove("solved");
+    clearInterval(tick); tick = null; t0 = null; timerEl.textContent = "0:00";
+    msg.textContent = "Tap a square to begin."; msg.classList.remove("win");
+    for (var r = 0; r < N; r++) {
+      state.push([]); fixed.push([]); btns.push([]);
+      var rowEl = document.createElement("div");
+      rowEl.setAttribute("role", "row"); rowEl.style.display = "contents";
+      for (var c = 0; c < N; c++) {
+        var ch = PUZZLE[r][c], v = ch === "." ? null : +ch;
+        state[r].push(v); fixed[r].push(v !== null);
+        var b = document.createElement("button");
+        b.type = "button"; b.className = "bcell" + (v !== null ? " fixed" : "");
+        b.setAttribute("role", "gridcell");
+        if (v !== null) { b.dataset.v = v; b.setAttribute("aria-disabled", "true"); }
+        (function (r, c) { b.addEventListener("click", function () { tap(r, c); }); })(r, c);
+        btns[r].push(b); rowEl.appendChild(b);
+      }
+      board.appendChild(rowEl);
+    }
+    refresh();
+  }
+
+  function tap(r, c) {
+    if (fixed[r][c] || done) return;
+    if (!t0) { t0 = Date.now(); tick = setInterval(function () { timerEl.textContent = fmt(Math.floor((Date.now() - t0) / 1000)); }, 250); msg.textContent = "Three of each per row and column."; }
+    var v = state[r][c];
+    state[r][c] = v === null ? 1 : v === 1 ? 0 : null;
+    refresh();
+  }
+
+  function lines() {
+    var out = [];
+    for (var i = 0; i < N; i++) {
+      out.push({ cells: state[i].map(function (v, c) { return [i, c]; }), vals: state[i].slice() });
+      out.push({ cells: state.map(function (row, r) { return [r, i]; }), vals: state.map(function (row) { return row[i]; }) });
+    }
+    return out;
+  }
+
+  function refresh() {
+    var bad = {};
+    lines().forEach(function (L) {
+      for (var k = 0; k < N - 2; k++) {
+        var a = L.vals[k];
+        if (a !== null && a === L.vals[k + 1] && a === L.vals[k + 2]) [k, k + 1, k + 2].forEach(function (j) { bad[L.cells[j].join()] = 1; });
+      }
+      [0, 1].forEach(function (x) {
+        if (L.vals.filter(function (v) { return v === x; }).length > N / 2) L.cells.forEach(function (rc, j) { if (L.vals[j] === x) bad[rc.join()] = 1; });
+      });
+    });
+    var full = true;
+    for (var r = 0; r < N; r++) for (var c = 0; c < N; c++) {
+      var b = btns[r][c], v = state[r][c];
+      if (v === null) { full = false; delete b.dataset.v; } else b.dataset.v = v;
+      b.classList.toggle("bad", !!bad[r + "," + c]);
+      b.setAttribute("aria-label", label(r, c));
+    }
+    if (!full) return;
+    var rowsU = new Set(state.map(function (row) { return row.join(""); })).size === N;
+    var colsU = new Set(state.map(function (_, c) { return state.map(function (row) { return row[c]; }).join(""); })).size === N;
+    if (Object.keys(bad).length === 0 && rowsU && colsU) {
+      done = true; clearInterval(tick);
+      var secs = Math.floor((Date.now() - t0) / 1000);
+      board.classList.add("solved"); msg.classList.add("win");
+      msg.textContent = "Solved in " + fmt(secs) + ". Nice.";
+    } else {
+      msg.textContent = Object.keys(bad).length ? "Almost. The red squares break a rule." : "Almost. Two rows or columns are identical.";
+    }
+  }
+
+  resetBtn.addEventListener("click", build);
+  build();
 })();
 </script>
 </body>

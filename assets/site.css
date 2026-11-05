@@ -14,14 +14,14 @@
   --ok: #127A50; --ok-bg: rgba(31, 169, 113, 0.16);
   --font: "Archivo", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
   --accent: var(--tile); --accent2: var(--coin);
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
+/* Always dark: these values override the ones above */
+:root {
     --paper: #0F1526; --cell: #1B233A; --ink: #E9EDF5; --muted: #9AA3B8;
     --tile: #6F86FF; --line: #26304A; --raised: #151D33;
     --ok: #4ED69B; --ok-bg: rgba(78, 214, 155, 0.14);
   }
-}
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font); font-size: 1.0625rem; line-height: 1.55; }

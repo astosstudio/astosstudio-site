@@ -164,6 +164,7 @@
       rels.forEach(function (r) {
         var any = false;
         r.querySelectorAll(".items li").forEach(function (li) { var ok = f === "all" || li.getAttribute("data-kind") === f; li.hidden = !ok; if (ok) any = true; });
+        r.querySelectorAll(".group").forEach(function (g) { g.hidden = !g.querySelector(".items li:not([hidden])"); });
         r.hidden = !any; if (any) shown++;
       });
       empty.hidden = shown > 0;
@@ -186,5 +187,25 @@
     </nav>
   </div>
 </footer>
+<script>
+/* Page views, counted without cookies and without storing your IP address. See /privacy/. */
+(function () {
+  try {
+    if (location.hostname !== "www.astosstudio.com") return;
+    if (navigator.doNotTrack === "1" || navigator.globalPrivacyControl === true || navigator.webdriver) return;
+    if (/bot|crawl|spider|slurp|preview|headless|lighthouse/i.test(navigator.userAgent)) return;
+    try { if (localStorage.getItem("astos-no-count") === "1") return; } catch (e) {}
+    var ref = "";
+    try { if (document.referrer) { var h = new URL(document.referrer).hostname.toLowerCase().replace(/^www\./, ""); if (h && h !== "astosstudio.com") ref = h; } } catch (e) {}
+    var w = Math.min(screen.width, screen.height);
+    var device = w < 600 ? "phone" : (matchMedia("(pointer: coarse)").matches && w < 1100 ? "tablet" : "desktop");
+    fetch("https://cknpnmkmtjtoaibxdubh.supabase.co/rest/v1/rpc/site_track", {
+      method: "POST", keepalive: true, credentials: "omit", referrerPolicy: "no-referrer",
+      headers: { "Content-Type": "application/json", "apikey": "sb_publishable_icTGZDW0YhR2ifZ92ALdWw_pDsPKAIY" },
+      body: JSON.stringify({ p_path: location.pathname, p_ref: ref || null, p_lang: (navigator.language || "").slice(0, 12) || null, p_device: device })
+    }).catch(function () {});
+  } catch (e) {}
+})();
+</script>
 </body>
 </html>

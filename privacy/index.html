@@ -44,7 +44,7 @@
   </div>
   <article>
     <h1>Privacy policy</h1>
-    <p class="updated">Last updated: 4 November 2026</p>
+    <p class="updated">Last updated: 7 November 2026</p>
     <p class="lead">This policy explains which personal data AstosStudio processes when you play Mob Holdout: Mafia Defense, visit this website or email us, why we do that, and which rights you have under the General Data Protection Regulation (GDPR).</p>
     <p>This policy covers Mob Holdout: Mafia Defense and this website. Daily Puzzle Club, Rocket Rain and Kermis Jackpot are still in development; we’ll add them here before they’re released.</p>
 
@@ -77,14 +77,16 @@
     </div>
 
     <h2>This website</h2>
-    <p>This website uses no cookies, no analytics and no tracking. Fonts are served from this site itself. The site is hosted by GitHub (GitHub Pages), which processes your IP address in its server logs to deliver and protect the site. Legal basis: legitimate interest (art. 6(1)(f)).</p>
+    <p>This website uses no cookies and no third-party trackers. Fonts are served from this site itself. The site is hosted by GitHub (GitHub Pages), which processes your IP address in its server logs to deliver and protect the site.</p>
+    <p>We count page views ourselves, without cookies and without storing your IP address. For each page view we only store the page, the website you came from (for example google.com), your browser language, the type of device (phone, tablet or computer) and the time. This shows us which pages are useful; it can’t be traced back to you. The counts are stored with Supabase in Frankfurt, which processes your IP address briefly in its request logs to deliver and protect the service, and we delete them after 13 months. If your browser sends a Do Not Track or Global Privacy Control signal, we don’t count your visit.</p>
+    <p>Legal basis for both: legitimate interest (art. 6(1)(f)).</p>
 
     <h2>When you email us</h2>
     <p>If you email us, we use your email address, your message and any attachments to help you. Our email is hosted by TransIP in the Netherlands. We keep support emails until your question has been handled, and then for at most two years so we can recognise recurring problems. Legal basis: legitimate interest (art. 6(1)(f)), or performance of a contract when your question is about a purchase.</p>
 
     <h2>Who receives your data</h2>
     <ul>
-      <li><strong>Supabase</strong>: game server and database, located in the EU (Frankfurt). Processor.</li>
+      <li><strong>Supabase</strong>: game server, database and website statistics, located in the EU (Frankfurt). Processor.</li>
       <li><strong>RevenueCat</strong>: handling of purchases and subscriptions, United States. Processor.</li>
       <li><strong>Google (AdMob)</strong>: ads. For personalised ads Google acts as an independent controller; see <a href="https://policies.google.com/privacy" rel="noopener">Google’s privacy policy</a>.</li>
       <li><strong>Apple and Google</strong>: app stores and payments, each as an independent controller.</li>
@@ -130,5 +132,25 @@
     </nav>
   </div>
 </footer>
+<script>
+/* Page views, counted without cookies and without storing your IP address. See /privacy/. */
+(function () {
+  try {
+    if (location.hostname !== "www.astosstudio.com") return;
+    if (navigator.doNotTrack === "1" || navigator.globalPrivacyControl === true || navigator.webdriver) return;
+    if (/bot|crawl|spider|slurp|preview|headless|lighthouse/i.test(navigator.userAgent)) return;
+    try { if (localStorage.getItem("astos-no-count") === "1") return; } catch (e) {}
+    var ref = "";
+    try { if (document.referrer) { var h = new URL(document.referrer).hostname.toLowerCase().replace(/^www\./, ""); if (h && h !== "astosstudio.com") ref = h; } } catch (e) {}
+    var w = Math.min(screen.width, screen.height);
+    var device = w < 600 ? "phone" : (matchMedia("(pointer: coarse)").matches && w < 1100 ? "tablet" : "desktop");
+    fetch("https://cknpnmkmtjtoaibxdubh.supabase.co/rest/v1/rpc/site_track", {
+      method: "POST", keepalive: true, credentials: "omit", referrerPolicy: "no-referrer",
+      headers: { "Content-Type": "application/json", "apikey": "sb_publishable_icTGZDW0YhR2ifZ92ALdWw_pDsPKAIY" },
+      body: JSON.stringify({ p_path: location.pathname, p_ref: ref || null, p_lang: (navigator.language || "").slice(0, 12) || null, p_device: device })
+    }).catch(function () {});
+  } catch (e) {}
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inzicht – AstosStudio</title>
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0F1526">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.dash { padding-block: clamp(1.5rem, 4vw, 3rem) 5rem; }
+.dash-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1rem 2rem; margin-bottom: 2rem; }
+.dash h1 { margin: 0 0 0.4rem; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1; font-weight: 800; font-stretch: 125%; letter-spacing: -0.03em; }
+.dash-head p { margin: 0; color: var(--muted); }
+.controls { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+.controls button, .gate button { font: inherit; font-size: 0.95rem; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 1rem; cursor: pointer; }
+.controls button:hover { border-color: var(--muted); }
+.controls button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+.kpi, .panel { background: var(--raised); border: 1px solid var(--line); border-radius: 18px; padding: 1.25rem 1.4rem; }
+.kpi span { display: block; color: var(--muted); font-size: 0.95rem; }
+.kpi b { display: block; margin-top: 0.3rem; font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1.05; font-weight: 800; font-stretch: 118%; font-variant-numeric: tabular-nums; }
+.kpi:first-child b { color: var(--tile); }
+.panel h2 { margin: 0 0 1rem; font-size: 1.1rem; font-weight: 700; font-stretch: 108%; }
+.chart { margin-bottom: 1rem; }
+.chart svg { display: block; width: 100%; height: auto; }
+.chart .bar { fill: var(--tile); }
+.chart .bar.today { fill: var(--coin); }
+.chart .bar.zero { fill: var(--cell); }
+.chart text { fill: var(--muted); font: 600 11px var(--font); font-variant-numeric: tabular-nums; }
+.grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.rows { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.55rem; }
+.rows li { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem; align-items: center; padding: 0.45rem 0.7rem; border-radius: 8px; overflow: hidden; }
+.rows li::before { content: ""; position: absolute; inset: 0 auto 0 0; width: var(--w, 0%); background: color-mix(in srgb, var(--tile) 22%, transparent); border-radius: 8px; }
+.rows li > * { position: relative; }
+.rows small { display: block; color: var(--muted); font-size: 0.8rem; }
+.rows b { font-variant-numeric: tabular-nums; }
+.empty { color: var(--muted); margin: 0; }
+.gate { max-width: 26rem; }
+.gate label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+.gate input { width: 100%; font: inherit; color: var(--ink); background: var(--raised); border: 1px solid var(--line); border-radius: 12px; padding: 0.7rem 0.9rem; margin-bottom: 0.75rem; }
+.gate input:focus-visible { outline: 3px solid var(--tile); outline-offset: 2px; }
+.msg { color: var(--muted); min-height: 1.5rem; }
+.msg.bad { color: #FF6B6E; }
+.foot { margin-top: 1.5rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.75rem 2rem; color: var(--muted); font-size: 0.9rem; }
+.foot label { display: inline-flex; gap: 0.5rem; align-items: center; cursor: pointer; }
+.foot input { accent-color: var(--tile); width: 1.05rem; height: 1.05rem; }
+[hidden] { display: none !important; }
+@media (max-width: 860px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } .grid2 { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header class="wrap top">
+  <a class="mark" href="/">astos studio</a>
+</header>
+<main class="wrap dash">
+  <div class="dash-head">
+    <div>
+      <h1>Inzicht</h1>
+      <p>Bezoekers van astosstudio.com, geteld zonder cookies.</p>
+    </div>
+    <div class="controls" id="controls" hidden role="group" aria-label="Periode">
+      <button type="button" data-d="7">7 dagen</button>
+      <button type="button" data-d="30" aria-pressed="true">30 dagen</button>
+      <button type="button" data-d="90">90 dagen</button>
+      <button type="button" data-d="365">1 jaar</button>
+      <button type="button" id="refresh" aria-label="Verversen">↻</button>
+    </div>
+  </div>
+
+  <form class="gate" id="gate" hidden>
+    <label for="key">Sleutel</label>
+    <input id="key" type="password" autocomplete="current-password" spellcheck="false">
+    <button type="submit">Openen</button>
+  </form>
+  <p class="msg" id="msg" aria-live="polite">Laden…</p>
+
+  <div id="dash" hidden>
+    <div class="kpis">
+      <div class="kpi"><span id="k-total-label">Weergaven, 30 dagen</span><b id="k-total">0</b></div>
+      <div class="kpi"><span>Vandaag</span><b id="k-today">0</b></div>
+      <div class="kpi"><span>Via andere sites</span><b id="k-ext">0</b></div>
+      <div class="kpi"><span>Sinds de start</span><b id="k-all">0</b></div>
+    </div>
+    <div class="panel chart"><h2>Per dag</h2><div id="chart"></div></div>
+    <div class="grid2">
+      <div class="panel"><h2>Pagina’s</h2><ul class="rows" id="pages"></ul></div>
+      <div class="panel"><h2>Waar ze vandaan komen</h2><ul class="rows" id="refs"></ul></div>
+      <div class="panel"><h2>Apparaten</h2><ul class="rows" id="devices"></ul></div>
+      <div class="panel"><h2>Talen</h2><ul class="rows" id="langs"></ul></div>
+    </div>
+    <div class="foot">
+      <span id="updated"></span>
+      <label><input type="checkbox" id="nocount"> Mijn bezoeken op dit apparaat niet meetellen</label>
+      <a href="https://search.google.com/search-console" target="_blank" rel="noopener">Zoekopdrachten in Google: Search Console</a>
+    </div>
+  </div>
+</main>
+<script>
+(function () {
+  var API = "https://cknpnmkmtjtoaibxdubh.supabase.co/rest/v1/rpc/site_stats";
+  var PUB = "sb_publishable_icTGZDW0YhR2ifZ92ALdWw_pDsPKAIY";
+  var days = 30, key = "", timer = null;
+  var $ = function (id) { return document.getElementById(id); };
+  var fmt = function (n) { return Number(n || 0).toLocaleString("nl-NL"); };
+
+  var PAGES = {
+    "/": "Startpagina", "/patch-notes/": "Patch notes", "/patch-notes/mob-holdout/": "Patch notes: Mob Holdout",
+    "/patch-notes/daily-puzzle-club/": "Patch notes: Daily Puzzle Club", "/patch-notes/rocket-rain/": "Patch notes: Rocket Rain",
+    "/patch-notes/kermis-jackpot/": "Patch notes: Kermis Jackpot", "/privacy/": "Privacy (Engels)", "/nl/privacy/": "Privacy (Nederlands)",
+    "/support/": "Support (Engels)", "/nl/support/": "Support (Nederlands)", "/delete-account/": "Account verwijderen (Engels)",
+    "/nl/delete-account/": "Account verwijderen (Nederlands)"
+  };
+  var DEVICES = { phone: "Telefoon", tablet: "Tablet", desktop: "Computer", "": "Onbekend" };
+  var LANGS = { nl: "Nederlands", en: "Engels", de: "Duits", fr: "Frans", es: "Spaans", it: "Italiaans", pt: "Portugees", pl: "Pools", tr: "Turks", "": "Onbekend" };
+  function source(host) {
+    if (!host) return "Direct (link, app of bladwijzer)";
+    if (/(^|\.)google\./.test(host)) return "Google";
+    if (/instagram\.com$/.test(host)) return "Instagram";
+    if (/facebook\.com$|fb\.me$/.test(host)) return "Facebook";
+    if (/bing\.com$/.test(host)) return "Bing";
+    if (/duckduckgo\.com$/.test(host)) return "DuckDuckGo";
+    if (/github\.com$/.test(host)) return "GitHub";
+    if (/t\.co$|x\.com$|twitter\.com$/.test(host)) return "X";
+    return host;
+  }
+  function merge(list, label) {
+    var m = {};
+    list.forEach(function (r) { var k = label(r.k); m[k] = (m[k] || 0) + r.n; });
+    return Object.keys(m).map(function (k) { return { k: k, n: m[k] }; }).sort(function (a, b) { return b.n - a.n; });
+  }
+  function rows(el, list, sub) {
+    el.innerHTML = "";
+    if (!list.length) { el.innerHTML = '<li class="empty">Nog niets in deze periode.</li>'; return; }
+    var max = list[0].n;
+    list.forEach(function (r) {
+      var li = document.createElement("li");
+      li.style.setProperty("--w", Math.max(4, Math.round(r.n / max * 100)) + "%");
+      var name = document.createElement("span"); name.textContent = r.label || r.k;
+      if (sub && r.sub) { var s = document.createElement("small"); s.textContent = r.sub; name.appendChild(s); }
+      var b = document.createElement("b"); b.textContent = fmt(r.n);
+      li.appendChild(name); li.appendChild(b); el.appendChild(li);
+    });
+  }
+  function chart(per) {
+    var W = 900, H = 220, pad = 22, n = per.length, gap = n > 60 ? 1 : 3;
+    var bw = (W - (n - 1) * gap) / n, max = Math.max(1, Math.max.apply(null, per.map(function (d) { return d.n; })));
+    var step = n <= 14 ? 1 : n <= 31 ? 3 : n <= 90 ? 7 : 30, svg = "";
+    per.forEach(function (d, i) {
+      var h = d.n ? Math.max(3, (H - pad - 8) * d.n / max) : 3, x = i * (bw + gap), y = H - pad - h;
+      var cls = i === n - 1 ? "bar today" : d.n ? "bar" : "bar zero";
+      var dt = new Date(d.day + "T12:00:00");
+      svg += '<rect class="' + cls + '" x="' + x.toFixed(1) + '" y="' + y.toFixed(1) + '" width="' + Math.max(1, bw).toFixed(1) + '" height="' + h.toFixed(1) + '" rx="' + Math.min(3, bw / 3).toFixed(1) + '"><title>' +
+        dt.toLocaleDateString("nl-NL", { weekday: "short", day: "numeric", month: "short" }) + ": " + fmt(d.n) + "</title></rect>";
+      if ((n - 1 - i) % step === 0) svg += '<text x="' + (x + bw / 2).toFixed(1) + '" y="' + (H - 6) + '" text-anchor="middle">' + dt.toLocaleDateString("nl-NL", { day: "numeric", month: "short" }) + "</text>";
+    });
+    $("chart").innerHTML = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Weergaven per dag">' + svg + "</svg>";
+  }
+  function show(s) {
+    $("k-total-label").textContent = "Weergaven, " + (s.days === 365 ? "1 jaar" : s.days + " dagen");
+    $("k-total").textContent = fmt(s.total); $("k-today").textContent = fmt(s.today);
+    $("k-ext").textContent = fmt(s.external); $("k-all").textContent = fmt(s.all_time);
+    chart(s.per_day || []);
+    rows($("pages"), (s.pages || []).map(function (r) { return { k: r.k, n: r.n, label: PAGES[r.k] || r.k, sub: r.k }; }), true);
+    rows($("refs"), merge(s.refs || [], source));
+    rows($("devices"), (s.devices || []).map(function (r) { return { k: r.k, n: r.n, label: DEVICES[r.k] || r.k }; }));
+    rows($("langs"), merge(s.langs || [], function (k) { return LANGS[k] || k; }));
+    $("updated").textContent = "Bijgewerkt om " + new Date().toLocaleTimeString("nl-NL", { hour: "2-digit", minute: "2-digit" }) + ". Ververst elke minuut.";
+  }
+  function load() {
+    $("msg").textContent = "Laden…"; $("msg").className = "msg"; $("msg").hidden = false;
+    fetch(API, { method: "POST", credentials: "omit", headers: { "Content-Type": "application/json", "apikey": PUB }, body: JSON.stringify({ p_key: key, p_days: days }) })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function (s) {
+        if (!s) { $("msg").textContent = "Deze sleutel klopt niet."; $("msg").className = "msg bad"; $("gate").hidden = false; $("dash").hidden = true; $("controls").hidden = true; return; }
+        $("msg").hidden = true; $("gate").hidden = true; $("dash").hidden = false; $("controls").hidden = false; show(s);
+        clearTimeout(timer); timer = setTimeout(load, 60000);
+      })
+      .catch(function (e) { $("msg").textContent = "Kon de cijfers niet laden (" + e.message + ")."; $("msg").className = "msg bad"; });
+  }
+  document.querySelectorAll("#controls [data-d]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      days = +b.getAttribute("data-d");
+      document.querySelectorAll("#controls [data-d]").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      load();
+    });
+  });
+  $("refresh").addEventListener("click", load);
+  $("gate").addEventListener("submit", function (e) { e.preventDefault(); key = $("key").value.trim(); if (key) { history.replaceState(null, "", "#" + key); load(); } });
+  try { $("nocount").checked = localStorage.getItem("astos-no-count") === "1"; } catch (e) {}
+  $("nocount").addEventListener("change", function () { try { this.checked ? localStorage.setItem("astos-no-count", "1") : localStorage.removeItem("astos-no-count"); } catch (e) {} });
+
+  function fromHash() {
+    key = decodeURIComponent(location.hash.slice(1));
+    if (key) load(); else { clearTimeout(timer); $("msg").textContent = ""; $("dash").hidden = true; $("controls").hidden = true; $("gate").hidden = false; $("key").focus(); }
+  }
+  window.addEventListener("hashchange", fromHash);
+  fromHash();
+})();
+</script>
+</body>
+</html>

@@ -44,7 +44,7 @@
   </div>
   <article>
     <h1>Privacybeleid</h1>
-    <p class="updated">Laatst bijgewerkt: 4 november 2026</p>
+    <p class="updated">Laatst bijgewerkt: 7 november 2026</p>
     <p class="lead">In dit privacybeleid lees je welke persoonsgegevens AstosStudio verwerkt als je Mob Holdout: Mafia Defense speelt, deze website bezoekt of ons mailt, waarom we dat doen en welke rechten je hebt onder de Algemene verordening gegevensbescherming (AVG).</p>
     <p>Dit beleid geldt voor Mob Holdout: Mafia Defense en deze website. Daily Puzzle Club, Rocket Rain en Kermis Jackpot zijn nog in ontwikkeling; die voegen we hier toe voordat ze uitkomen.</p>
 
@@ -77,14 +77,16 @@
     </div>
 
     <h2>Deze website</h2>
-    <p>Deze website gebruikt geen cookies, geen statistieken en geen tracking. De lettertypen komen van deze site zelf. De site wordt gehost door GitHub (GitHub Pages), dat je IP-adres in serverlogs verwerkt om de site te leveren en te beveiligen. Grondslag: gerechtvaardigd belang (art. 6 lid 1 sub f).</p>
+    <p>Deze website gebruikt geen cookies en geen trackers van derden. De lettertypen komen van deze site zelf. De site wordt gehost door GitHub (GitHub Pages), dat je IP-adres in serverlogs verwerkt om de site te leveren en te beveiligen.</p>
+    <p>We tellen paginaweergaven zelf, zonder cookies en zonder je IP-adres op te slaan. Per weergave bewaren we alleen de pagina, de website waar je vandaan kwam (bijvoorbeeld google.com), de taal van je browser, het soort apparaat (telefoon, tablet of computer) en het tijdstip. Zo zien we welke pagina’s nuttig zijn; het is niet naar jou te herleiden. De tellingen staan bij Supabase in Frankfurt, dat je IP-adres kort in zijn verzoeklogs verwerkt om de dienst te leveren en te beveiligen, en we verwijderen ze na 13 maanden. Stuurt je browser een Do Not Track- of Global Privacy Control-signaal, dan tellen we je bezoek niet.</p>
+    <p>Grondslag voor beide: gerechtvaardigd belang (art. 6 lid 1 sub f).</p>
 
     <h2>Als je ons mailt</h2>
     <p>Mail je ons, dan gebruiken we je e-mailadres, je bericht en eventuele bijlagen om je te helpen. Onze e-mail wordt gehost door TransIP in Nederland. We bewaren supportmails tot je vraag is afgehandeld, en daarna maximaal twee jaar, zodat we terugkerende problemen herkennen. Grondslag: gerechtvaardigd belang (art. 6 lid 1 sub f), of uitvoering van de overeenkomst als je vraag over een aankoop gaat.</p>
 
     <h2>Wie ontvangen je gegevens</h2>
     <ul>
-      <li><strong>Supabase</strong>: spelserver en database, in de EU (Frankfurt). Verwerker.</li>
+      <li><strong>Supabase</strong>: spelserver, database en websitestatistieken, in de EU (Frankfurt). Verwerker.</li>
       <li><strong>RevenueCat</strong>: afhandeling van aankopen en abonnementen, Verenigde Staten. Verwerker.</li>
       <li><strong>Google (AdMob)</strong>: advertenties. Voor gepersonaliseerde advertenties is Google zelf verwerkingsverantwoordelijke; zie het <a href="https://policies.google.com/privacy?hl=nl" rel="noopener">privacybeleid van Google</a>.</li>
       <li><strong>Apple en Google</strong>: appwinkels en betalingen, elk als zelfstandige verwerkingsverantwoordelijke.</li>
@@ -130,5 +132,25 @@
     </nav>
   </div>
 </footer>
+<script>
+/* Page views, counted without cookies and without storing your IP address. See /privacy/. */
+(function () {
+  try {
+    if (location.hostname !== "www.astosstudio.com") return;
+    if (navigator.doNotTrack === "1" || navigator.globalPrivacyControl === true || navigator.webdriver) return;
+    if (/bot|crawl|spider|slurp|preview|headless|lighthouse/i.test(navigator.userAgent)) return;
+    try { if (localStorage.getItem("astos-no-count") === "1") return; } catch (e) {}
+    var ref = "";
+    try { if (document.referrer) { var h = new URL(document.referrer).hostname.toLowerCase().replace(/^www\./, ""); if (h && h !== "astosstudio.com") ref = h; } } catch (e) {}
+    var w = Math.min(screen.width, screen.height);
+    var device = w < 600 ? "phone" : (matchMedia("(pointer: coarse)").matches && w < 1100 ? "tablet" : "desktop");
+    fetch("https://cknpnmkmtjtoaibxdubh.supabase.co/rest/v1/rpc/site_track", {
+      method: "POST", keepalive: true, credentials: "omit", referrerPolicy: "no-referrer",
+      headers: { "Content-Type": "application/json", "apikey": "sb_publishable_icTGZDW0YhR2ifZ92ALdWw_pDsPKAIY" },
+      body: JSON.stringify({ p_path: location.pathname, p_ref: ref || null, p_lang: (navigator.language || "").slice(0, 12) || null, p_device: device })
+    }).catch(function () {});
+  } catch (e) {}
+})();
+</script>
 </body>
 </html>

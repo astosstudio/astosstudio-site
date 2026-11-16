@@ -2,7 +2,303 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.astosstudio.com/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/nl/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/es/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pt/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/fr/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/de/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/da/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/no/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/sv/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pl/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ru/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/uk/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/zh/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ja/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ko/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/"/>
   </url>
   <url>
     <loc>https://www.astosstudio.com/patch-notes/</loc>
@@ -25,45 +321,1203 @@
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://www.astosstudio.com/support/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
-  </url>
-  <url>
-    <loc>https://www.astosstudio.com/nl/support/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
-  </url>
-  <url>
     <loc>https://www.astosstudio.com/privacy/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
   </url>
   <url>
     <loc>https://www.astosstudio.com/nl/privacy/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
   </url>
   <url>
+    <loc>https://www.astosstudio.com/es/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pt/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/fr/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/de/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/da/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/no/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/sv/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pl/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ru/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/uk/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/zh/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ja/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ko/privacy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/nl/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/es/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pt/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/fr/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/de/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/da/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/no/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/sv/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pl/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ru/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/uk/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/zh/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ja/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ko/support/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/support/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/support/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/support/"/>
+  </url>
+  <url>
     <loc>https://www.astosstudio.com/delete-account/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
   </url>
   <url>
     <loc>https://www.astosstudio.com/nl/delete-account/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/es/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pt/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/fr/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/de/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/da/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/no/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/sv/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pl/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ru/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/uk/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/zh/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ja/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ko/delete-account/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/nl/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/es/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pt/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/fr/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/de/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/da/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/no/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/sv/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/pl/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ru/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/uk/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/zh/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ja/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://www.astosstudio.com/ko/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.astosstudio.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.astosstudio.com/nl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.astosstudio.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.astosstudio.com/pt/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.astosstudio.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.astosstudio.com/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.astosstudio.com/da/terms/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://www.astosstudio.com/no/terms/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.astosstudio.com/sv/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.astosstudio.com/pl/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.astosstudio.com/ru/terms/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.astosstudio.com/uk/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.astosstudio.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.astosstudio.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.astosstudio.com/ko/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.astosstudio.com/terms/"/>
   </url>
 </urlset>

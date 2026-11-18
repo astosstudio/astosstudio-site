@@ -180,3 +180,48 @@ article .card h3 { margin: 0 0 0.5rem; font-size: 1.15rem; font-stretch: 105%; }
 :lang(ko) { word-break: keep-all; }
 /* Pages that start with the breadcrumb (patch notes of one game): room under the sticky header. */
 main > .crumbs:first-child { margin-top: clamp(1.5rem, 3vw, 2.25rem); }
+
+/* ---------- Game page (/mob-holdout/) ---------- */
+.game article { max-width: none; }
+.g-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+.g-id { display: flex; align-items: center; gap: 1.1rem; }
+.g-id img { width: clamp(4rem, 9vw, 5.5rem); height: auto; border-radius: 22%; flex: none; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45); }
+.game .g-id h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1; }
+.g-id h1 span:last-child { display: block; margin-top: 0.4rem; font-size: 0.42em; letter-spacing: 0.08em; text-transform: uppercase; color: #FF4D9D; }
+.game article .lead { margin-top: 1.5rem; }
+.g-stores { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.75rem; }
+.g-store { display: flex; align-items: center; gap: 0.7rem; padding: 0.6rem 1.1rem 0.6rem 0.9rem; border: 1px solid var(--line-2); border-radius: 14px; background: var(--raised); }
+.g-store svg { width: 1.5rem; height: 1.5rem; color: var(--muted); flex: none; }
+.g-store small { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.g-store b { display: block; line-height: 1.2; }
+.g-art { display: block; width: 100%; height: auto; border-radius: 20px; border: 1px solid var(--line); }
+.g-stats { list-style: none; padding: 0; margin: clamp(2.5rem, 5vw, 4rem) 0 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+.g-stats li { margin: 0; padding: 1.2rem 1.3rem; background: var(--raised); border: 1px solid var(--line); border-radius: 18px; }
+.g-stats b { display: block; font-size: clamp(1.7rem, 4vw, 2.5rem); font-stretch: 122%; line-height: 1; }
+.g-stats span { display: block; margin-top: 0.45rem; color: var(--muted); font-size: 0.95rem; }
+.g-rows { display: grid; gap: clamp(2.5rem, 6vw, 5rem); margin-top: clamp(3rem, 7vw, 6rem); }
+.g-row { display: grid; grid-template-columns: minmax(0, 17rem) minmax(0, 34rem); gap: clamp(1.5rem, 5vw, 4.5rem); align-items: center; justify-content: center; }
+.g-row:nth-child(even) { grid-template-columns: minmax(0, 34rem) minmax(0, 17rem); }
+.g-row:nth-child(even) .g-ph { order: 2; }
+.g-ph { border-radius: 30px; border: 6px solid #1B2444; background: #000; overflow: hidden; box-shadow: 0 0 0 1px var(--line-2), 0 24px 60px rgba(0, 0, 0, 0.5), 0 0 70px -20px var(--c); }
+.g-ph img { display: block; width: 100%; height: auto; }
+.game article .g-txt h2 { margin: 0; font-size: clamp(1.5rem, 3.4vw, 2.3rem); line-height: 1.1; text-transform: uppercase; overflow-wrap: anywhere; }
+.g-txt h2::before { content: ""; display: block; width: 2.6rem; height: 4px; border-radius: 2px; background: var(--c); margin-bottom: 1.1rem; }
+.g-txt p { margin: 1rem 0 0; color: var(--muted); font-size: 1.1rem; }
+.cards.g-extras { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: none; margin: clamp(3rem, 7vw, 6rem) 0 0; }
+.g-facts { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; margin: 2rem 0 0; padding: 1.4rem 1.5rem; border: 1px solid var(--line); border-radius: 20px; }
+.g-facts div { min-width: 0; }
+.g-facts dt { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); overflow-wrap: anywhere; }
+.g-facts dd { margin: 0.3rem 0 0; font-weight: 600; overflow-wrap: anywhere; }
+.g-links { display: flex; flex-wrap: wrap; gap: 0.6rem 1.75rem; margin: 2rem 0 0; font-weight: 600; }
+@media (max-width: 860px) {
+  .g-hero { grid-template-columns: minmax(0, 1fr); }
+  .g-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cards.g-extras { grid-template-columns: minmax(0, 1fr); }
+  .g-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .g-row, .g-row:nth-child(even) { grid-template-columns: minmax(0, 1fr); justify-items: start; }
+  .g-row:nth-child(even) .g-ph { order: 0; }
+  .g-ph { width: min(15rem, 70%); justify-self: center; }
+}

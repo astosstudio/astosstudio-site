@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mob Holdout: Mafia Defense patch notes – AstosStudio</title>
-<meta name="description" content="Every update to Mob Holdout: Mafia Defense, from the first prototype to version 0.10: new features, improvements and fixes.">
+<meta name="description" content="Every update to Mob Holdout: Mafia Defense, from the first prototype to version 0.15: new features, improvements and fixes.">
 <link rel="canonical" href="https://www.astosstudio.com/patch-notes/mob-holdout/">
 <meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0F1526">
+<meta name="theme-color" content="#070A16">
 <meta property="og:site_name" content="AstosStudio">
 <meta property="og:title" content="Mob Holdout: Mafia Defense patch notes – AstosStudio">
-<meta property="og:description" content="Every update to Mob Holdout: Mafia Defense, from the first prototype to version 0.10: new features, improvements and fixes.">
+<meta property="og:description" content="Every update to Mob Holdout: Mafia Defense, from the first prototype to version 0.15: new features, improvements and fixes.">
 <meta property="og:url" content="https://www.astosstudio.com/patch-notes/mob-holdout/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -26,14 +26,17 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.astosstudio.com/"},{"@type":"ListItem","position":2,"name":"Patch notes","item":"https://www.astosstudio.com/patch-notes/"},{"@type":"ListItem","position":3,"name":"Mob Holdout","item":"https://www.astosstudio.com/patch-notes/mob-holdout/"}]}</script>
 </head>
 <body>
+<div class="site-head">
 <header class="wrap top">
-  <a class="mark" href="/">astos studio</a>
+  <a class="mark" href="/" aria-label="AstosStudio"><svg viewBox="0 0 7 7" aria-hidden="true"><rect width="7" height="7" rx="1.4" fill="#182033"/><g fill="#6F86FF"><rect x="2" y="1" width=".86" height=".86" rx=".14"/><rect x="3" y="1" width=".86" height=".86" rx=".14"/><rect x="4" y="1" width=".86" height=".86" rx=".14"/><rect x="1" y="2" width=".86" height=".86" rx=".14"/><rect x="5" y="2" width=".86" height=".86" rx=".14"/><rect x="1" y="3" width=".86" height=".86" rx=".14"/><rect x="2" y="3" width=".86" height=".86" rx=".14"/><rect x="3" y="3" width=".86" height=".86" rx=".14"/><rect x="4" y="3" width=".86" height=".86" rx=".14"/><rect x="5" y="3" width=".86" height=".86" rx=".14"/><rect x="1" y="4" width=".86" height=".86" rx=".14"/><rect x="5" y="4" width=".86" height=".86" rx=".14"/><rect x="1" y="5" width=".86" height=".86" rx=".14"/><rect x="5" y="5" width=".86" height=".86" rx=".14"/></g></svg><b>astos studio</b></a>
   <nav aria-label="Main">
     <a href="/#mob-holdout">Games</a>
-    <a href="/patch-notes/" aria-current="page">Patch notes</a>
+    <a class="opt" href="/#studio">Studio</a>
+    <a class="opt2" href="/patch-notes/" aria-current="page">Patch notes</a>
     <a href="/support/">Support</a>
   </nav>
 </header>
+</div>
 <main class="wrap" style="--accent:#E0213F;--accent2:#FFD36B;--accent-ink:#FFFFFF">
   <ol class="crumbs" aria-label="Breadcrumb"><li><a href="/">Home</a></li><li><a href="/patch-notes/">Patch notes</a></li><li aria-current="page">Mob Holdout</li></ol>
   <div class="game-head">
@@ -41,12 +44,12 @@
     <div>
       <p class="kicker">Patch notes</p>
       <h1>Mob Holdout: Mafia Defense</h1>
-      <p class="blurb">A mafia lane-defense game. Rival crews storm your wall, wave after wave, and you have one turret to hold the line.</p>
+      <p class="blurb">A mafia lane-defense game. Hold your street with one turret against wave after wave of rival crews, build your city and raid other players’ estates.</p>
       <p class="links"><a href="/#mob-holdout">About the game</a><a href="/patch-notes/">All patch notes</a><a href="/support/">Support</a></p>
     </div>
   </div>
   <div class="toolbar">
-    <p>10 updates with 121 changes. The game is in development; it isn’t in the stores yet.</p>
+    <p>15 updates with 265 changes. The game is in development; it isn’t in the stores yet.</p>
     <div class="filters" role="group" aria-label="Show changes">
       <button type="button" data-f="all" aria-pressed="true">All</button>
       <button type="button" data-f="new" aria-pressed="false">New</button>
@@ -55,10 +58,336 @@
     </div>
   </div>
   <ol class="releases" reversed>
+    <li class="release" id="v0-15">
+      <div class="ver"><b><a href="#v0-15" aria-label="Version 0.15">0.15</a></b><time datetime="2026-11-17">17 November 2026</time></div>
+      <div>
+        <h2>Sound, skins and raids on your estate<span class="badge-latest">Latest</span></h2>
+        <div class="group">
+        <h3>Sound and music</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>Music: one track for your city, one for battle and one for boss fights.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Recorded sounds for your turret: shots, the shotgun, the sniper, rockets, the flamethrower and critical hits.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Music follows your phone’s silent switch and plays alongside other apps. Switch it off in Settings.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>City raid</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>A raid now plays on your target’s own estate: the mansion, the vault with the loot, the garage and the armory stand behind the wall.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>You see the turret skin of the player you raid, and raiders see yours.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Tower range shows while you pick a lane. After the first mine goes off, you see the mines that are left in that lane.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Big moments in a raid: a tower falls, the gate breaks, a star lands and loot leaves the vault.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The clock turns red and ticks in the last ten seconds.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Skins</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>Five Untouchable skins above Legendary: Black Opal, Liquid Chrome, Royal Flush, Hologram and Capo di tutti capi.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Each Untouchable skin gives a small bonus on your own street, such as damage, fire rate, wall or coins.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Bonuses from all the skins you own add up, whichever skin you wear.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Untouchable skins have moving materials and their own effect when an enemy falls. Each comes with a profile banner and a title.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Other players see your skin on your profile, and rare skins show next to your name on the leaderboard.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>From Mythic up, the ring around your turret and the muzzle flash take the color of your skin.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Your estate</h3>
+        <ul class="items">
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The mansion comes first. It starts at level 1 and now goes up to level 25.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>No building can be a higher level than your mansion.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The mansion can level up once four other buildings have reached its level.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>In a run</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>Take all 3: watch an ad on an upgrade choice to get all three cards, up to three times per run.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Game speed is 1× for everyone. Family VIP plays at 2×.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The 4× speed in Endless is gone.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The 3D battle look is now on for everyone. You can switch back to the flat look in Settings.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Account and connection</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>Link your account to an e-mail address in Settings, so you keep your progress on a new phone.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Sign in with your e-mail on another phone to pick up where you left off.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>If your connection drops during a fight, the fight pauses. If it stays away, the game asks you to restart.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>A City raid that was running is saved up to where you were and settled after the restart.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Help and text</h3>
+        <ul class="items">
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>How to play has ten cards, including building, raiding, Capos, currencies and where to find everything.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The guided tour now points to Capos, your profile with the album, and the districts.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Shorter lines under names in lists. The longer explanation sits behind the question mark.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Capos and Sal the shopkeeper now breathe and blink.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Your Capo slides into view, full size, when you fire a super attack.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Notifications on iPhone show the name Mob Holdout as their title.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Fixes</h3>
+        <ul class="items">
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>On small phones, the Claim all button in the season pass sat behind the bottom bar.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>On iPhones with a Dynamic Island, the name of a raid target covered the top of the estate.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>Family VIP showed “Demo: nothing is charged” in the app.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>A Japanese label broke in the middle of a word.</span></li>
+        </ul>
+        </div>
+      </div>
+    </li>
+    <li class="release" id="v0-14">
+      <div class="ver"><b><a href="#v0-14" aria-label="Version 0.14">0.14</a></b><time datetime="2026-11-14">14 November 2026</time></div>
+      <div>
+        <h2>Neon with weight</h2>
+        <div class="group">
+        <h3>Look and feel</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>Everything you can tap is now an object: a dark outline, light from above and a lip that presses in.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>All 198 icons are redrawn as filled, colored objects.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Rewards build up in three beats: suspense, the reveal, then what you get, line by line.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>A new estate rank, reputation title or raid division gets its own moment.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Coins and diamonds fly to their counter when you earn them.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Upgrade cards have a color by kind: attack, defense, support or evolution.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The result screen shows your stars landing one by one. The numbers sit behind Details.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Screens open from the button you tapped, and their rows slide in one after another.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Battle</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>All 17 enemy types are small 3D figures, seen from above at an angle: runners, bikes, cars, trucks, drones and eight bosses.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Your turret, the wall and everything in your yard are drawn in the same style, in every skin.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Your crew in a raid, your dog, your armored car and your helicopter are 3D figures too.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Two new streets: the Night market and the Bridge. Missions now rotate through five streets.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Less on screen during a run: the wave is large in the middle, with one mark per wave.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The mission name and your kill count moved to the pause screen.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Rockets, grenades and explosions have weight. Bullets, sparks and weather stay light.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Getting around</h3>
+        <ul class="items">
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Five spots at the bottom: Shop, Capos, City, Family and Events. The More tab is gone.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Statistics and the Album are in your profile. How to play and Follow us are in Settings.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>The mission map is a road through the city. It starts at the bottom and winds up to the chapter boss.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>The shop is a place: Sal the bookkeeper stands behind the counter and reacts to what you do.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Shop items are tiles, six in view. Tap one for the details.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Explanations moved behind a question mark at the top of each screen.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Characters</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>The eight Capos and Don Corvino are redrawn as half-length figures with three expressions.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>The Capos screen is a collection. Capos you don’t own yet show as a silhouette.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>A new app icon: the Don.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Sound</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>32 recorded sound effects for buttons, rewards, stars, explosions and more.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Every button outside battle has its own tap sound.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Players and fair play</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>View another player’s profile from the leaderboard, chat or your family.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Your diamonds are now kept on the server.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Family boss damage is counted by the server.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>A family’s join code is now private. Only the Boss and rank 4 can see it.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The game checks in with the server during play, and your saved progress is verified.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>One device at a time. If another phone is playing on your account, you choose where to continue.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Changing your name waits for the server before it charges diamonds.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Skins</h3>
+        <ul class="items">
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Camouflage and Night Vision still cost coins. The other 22 skins now cost diamonds.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Skins you already owned stay yours. Earned skins stay earned.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Fixes</h3>
+        <ul class="items">
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>A player with Lucia could beat the Family boss with a single super attack.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>An empty strip sat above the bottom bar on most screens.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>The ×2 label on the Defend button was cut off.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>The counter on your portrait showed as a red stripe across your name.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>The amount in the welcome chest ignored your language’s number format.</span></li>
+        </ul>
+        </div>
+      </div>
+    </li>
+    <li class="release" id="v0-13">
+      <div class="ver"><b><a href="#v0-13" aria-label="Version 0.13">0.13</a></b><time datetime="2026-11-12">12 November 2026</time></div>
+      <div>
+        <h2>Your first week</h2>
+        <div class="group">
+        <h3>First week</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>A seven-day path with three goals a day. A new day opens each calendar day.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Four rewards along the way. Finish 18 goals to unlock Capo Vito.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Notifications on your phone: your shield is ending, the Night watch is full, your daily bonus is ready.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>At most two notifications a day, and never between 22:00 and 8:00.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The game asks before your phone does. Change it any time in Settings.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Friends</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>Invite friends with your own six-character code.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>You earn coins and diamonds as a friend reaches missions 5, 10, 20, 30 and 50.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Chests at one, three and six friends. Your friend gets a welcome gift.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Follow us: links to our website, Instagram and Facebook, with a small thank-you for your first visit.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Shop</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>Four packs that appear when you reach something: your first raid, a Capo with two stars, a three-star raid and a higher estate rank.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>The Growth fund: buy it once and collect diamonds at missions 10 through 100.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>A sixth diamond pack.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The Starter Pack now appears after mission 6.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>An offer is no longer lost if you just saw another one. It waits in the shop.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Offer windows only open on the home screen, never over another screen.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>No more made-up “was” prices on offers.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Double diamonds on your first purchase now applies to the smallest pack only.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Rewards</h3>
+        <ul class="items">
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Free diamonds from the daily bonus, contracts, achievements, the season pass and the wheel are about half of what they were.</span></li>
+        </ul>
+        </div>
+      </div>
+    </li>
+    <li class="release" id="v0-12">
+      <div class="ver"><b><a href="#v0-12" aria-label="Version 0.12">0.12</a></b><time datetime="2026-11-11">11 November 2026</time></div>
+      <div>
+        <h2>The city is home</h2>
+        <div class="group">
+        <h3>Home screen</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>You now open the game in your 3D city.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Three big buttons: Attack, Defend and Build.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>One strip at the top shows your next step.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Build opens a list of all ten buildings, with what you can afford first.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Events, the season pass and mail sit in a drawer on the right.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>One style</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>The whole game has one neon style: night blue, purple and neon.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Color has a fixed meaning: cyan for the main action, pink for attacking, green for what you can do now, gold for money, rank and premium.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Our own icons and Capo portraits replace emoji everywhere.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Every screen has the same frame, with Back at the top left.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>The coin has an A on it.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Three or more notifications arrive together as one bundle.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Locked features are hidden. One line tells you what opens next.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>All text is at least 12 points, and every tab and small button is 44 points high.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>First minutes</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>A guided start: after the prologue you build the Gate, then play mission 2.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Your first City raid is guided step by step.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The prologue can’t be skipped any more.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Missions 1 to 3 have 6 waves, 4 and 5 have 8, and 6 to 9 have 10.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Early missions have more enemies on screen, each a little weaker.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>You can’t lose missions 1 to 3.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>City raid now opens after mission 3. Other players can raid you from mission 10.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Your first real win gets its own line on the result screen.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Result screen</h3>
+        <ul class="items">
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The result comes first. Reward windows wait until you tap the main button.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Languages</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>The game is in 14 languages: English, Spanish, Portuguese, French, German, Danish, Norwegian, Swedish, Polish, Russian, Ukrainian, Chinese, Japanese and Korean.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>The language is picked from where you are. Change it in Settings.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Fixes</h3>
+        <ul class="items">
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>On iPhone, the top bar sat too low and the bottom bar too high.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>Six names stayed in English in every language.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>A tip in the prologue could be skipped for good if an upgrade choice opened at the same moment.</span></li>
+          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>The Defend button could catch taps meant for a building’s panel.</span></li>
+        </ul>
+        </div>
+      </div>
+    </li>
+    <li class="release" id="v0-11">
+      <div class="ver"><b><a href="#v0-11" aria-label="Version 0.11">0.11</a></b><time datetime="2026-11-09">9 November 2026</time></div>
+      <div>
+        <h2>City raid</h2>
+        <div class="group">
+        <h3>City raid</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>City raid: attack other players’ estates. Send your crew down three lanes to break the gate and the towers.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Earn up to three stars, loot and trophies. A defender never loses coins.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>After a raid with two or three stars, the defender gets a shield for 8 hours.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Pick a squad of four out of nine kinds of men, and train them.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Your active Capo joins the raid with a super attack.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Divisions from Bronze to Godfather, with a season reward.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>A daily chest after three raids won.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Watch a replay of every raid, on you or by you.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Take revenge, or hold your own street against the crew that raided you.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Defend your estate with traps in a lane you choose, and give it its own skin.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Scout a target’s estate in 3D before you attack.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Family wars are now fought on the estates of the other family’s members.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Your city</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>Your estate is a 3D city at night. Each of the ten buildings changes as it levels up.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Tap a building to upgrade it. Drag, pinch and zoom to look around.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>The Family house and the Crew tower stand in your city.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>The daily bonus is a seven-day calendar.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Events has a calendar: what is on now, what is always open and what is coming.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Mail and chat</h3>
+        <ul class="items">
+          <li data-kind="new"><span class="tag new">New</span><span>Mail: messages, purchases, family news, battle reports, event rewards and news from the studio in one place.</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Collect rewards you missed from Mail.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Chat looks like a messaging app: bubbles, times, date lines and a pinned announcement.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Chat is plain text with emoji from the game’s own picker. Quick messages are gone.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>The Family tab has two halves: Family and Your crew.</span></li>
+        </ul>
+        </div>
+        <div class="group">
+        <h3>Screens</h3>
+        <ul class="items">
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Sharper graphics, picked for your phone.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Foldables and tablets show the game as an arcade cabinet instead of black bars.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Loading screens show the shape of what is coming.</span></li>
+        </ul>
+        </div>
+      </div>
+    </li>
     <li class="release" id="v0-10">
       <div class="ver"><b><a href="#v0-10" aria-label="Version 0.10">0.10</a></b><time datetime="2026-11-07">7 November 2026</time></div>
       <div>
-        <h2>Family and Diamonds<span class="badge-latest">Latest</span></h2>
+        <h2>Family and Diamonds</h2>
         <div class="group">
         <h3>Diamonds</h3>
         <ul class="items">
@@ -88,10 +417,9 @@
           <li data-kind="improved"><span class="tag improved">Improved</span><span>Contracts now give Capo shards and SP. Finish all three for 3 diamonds.</span></li>
           <li data-kind="improved"><span class="tag improved">Improved</span><span>The daily challenge now gives 2 diamonds.</span></li>
           <li data-kind="improved"><span class="tag improved">Improved</span><span>The wheel of fortune has new prizes: shards, items, SP, Honor and diamonds. The jackpot is 50 diamonds.</span></li>
-          <li data-kind="improved"><span class="tag improved">Improved</span><span>Arcade cabinets now give Capo shards, SP and Honor.</span></li>
           <li data-kind="improved"><span class="tag improved">Improved</span><span>Surprises on your estate now give items, Capo shards or coins.</span></li>
           <li data-kind="improved"><span class="tag improved">Improved</span><span>Weekly rewards grow with your income, so they stay worth it as you progress.</span></li>
-          <li data-kind="improved"><span class="tag improved">Improved</span><span>Beating the Family boss or winning the tournament, the faction war or a family war also gives 10 diamonds.</span></li>
+          <li data-kind="improved"><span class="tag improved">Improved</span><span>Beating the Family boss or winning the faction war or a family war also gives 10 diamonds.</span></li>
         </ul>
         </div>
         <div class="group">
@@ -242,7 +570,6 @@
           <li data-kind="new"><span class="tag new">New</span><span>Six new permanent upgrades and a Boosts tab in the shop</span></li>
           <li data-kind="new"><span class="tag new">New</span><span>Ten new premium skins</span></li>
           <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>Marquee lights no longer overlap the Play button and the logo</span></li>
-          <li data-kind="fixed"><span class="tag fixed">Fixed</span><span>After a win in Aim mode, the next run stays in Aim mode</span></li>
         </ul>
       </div>
     </li>
@@ -289,7 +616,7 @@
         <h2>First line of defense</h2>
         <ul class="items">
           <li data-kind="new"><span class="tag new">New</span><span>A turret on your wall against wave after wave of rival crews</span></li>
-          <li data-kind="new"><span class="tag new">New</span><span>Missions, Endless mode and manual aim</span></li>
+          <li data-kind="new"><span class="tag new">New</span><span>Missions and Endless mode</span></li>
           <li data-kind="new"><span class="tag new">New</span><span>A shop with turret upgrades for Endless mode</span></li>
         </ul>
       </div>
@@ -317,18 +644,41 @@
 </script>
 <footer>
   <div class="wrap">
-    <p>© 2026 AstosStudio, KvK 93013116</p>
-    <nav aria-label="Footer">
-      <a href="/patch-notes/">Patch notes</a>
-      <a href="/support/">Support</a>
-      <a href="/privacy/">Privacy</a>
-      <a href="/terms/">Terms</a>
-      <a href="/delete-account/">Delete account</a>
-    </nav>
-    <nav aria-label="Social media">
-      <a href="https://www.instagram.com/astosstudio/" target="_blank" rel="me noopener">Instagram</a>
-      <a href="https://www.facebook.com/profile.php?id=61595903116816" target="_blank" rel="me noopener">Facebook</a>
-    </nav>
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="mark" href="/" aria-label="AstosStudio"><svg viewBox="0 0 7 7" aria-hidden="true"><rect width="7" height="7" rx="1.4" fill="#182033"/><g fill="#6F86FF"><rect x="2" y="1" width=".86" height=".86" rx=".14"/><rect x="3" y="1" width=".86" height=".86" rx=".14"/><rect x="4" y="1" width=".86" height=".86" rx=".14"/><rect x="1" y="2" width=".86" height=".86" rx=".14"/><rect x="5" y="2" width=".86" height=".86" rx=".14"/><rect x="1" y="3" width=".86" height=".86" rx=".14"/><rect x="2" y="3" width=".86" height=".86" rx=".14"/><rect x="3" y="3" width=".86" height=".86" rx=".14"/><rect x="4" y="3" width=".86" height=".86" rx=".14"/><rect x="5" y="3" width=".86" height=".86" rx=".14"/><rect x="1" y="4" width=".86" height=".86" rx=".14"/><rect x="5" y="4" width=".86" height=".86" rx=".14"/><rect x="1" y="5" width=".86" height=".86" rx=".14"/><rect x="5" y="5" width=".86" height=".86" rx=".14"/></g></svg><b>astos studio</b></a>
+        <p>Independent mobile games from the Netherlands.</p>
+      </div>
+      <div>
+        <h2>Games</h2>
+        <nav aria-label="Games">
+          <a href="/#mob-holdout">Mob Holdout</a>
+          <a href="/#daily-puzzle-club">Daily Puzzle Club</a>
+          <a href="/#rocket-rain">Rocket Rain</a>
+          <a href="/#kermis-jackpot">Kermis Jackpot</a>
+        </nav>
+      </div>
+      <div>
+        <h2>Studio</h2>
+        <nav aria-label="Footer">
+          <a href="/patch-notes/">Patch notes</a>
+          <a href="/support/">Support</a>
+          <a href="https://www.instagram.com/astosstudio/" target="_blank" rel="me noopener">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61595903116816" target="_blank" rel="me noopener">Facebook</a>
+        </nav>
+      </div>
+      <div>
+        <h2>Legal</h2>
+        <nav aria-label="Legal">
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+          <a href="/delete-account/">Delete account</a>
+        </nav>
+      </div>
+    </div>
+    <div class="foot-base">
+      <p>© 2026 AstosStudio, KvK 93013116</p>
+    </div>
   </div>
 </footer>
 <script>

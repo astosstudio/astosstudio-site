@@ -16,10 +16,10 @@
   --accent: var(--tile); --accent2: var(--coin);
   color-scheme: dark;
 }
-/* Always dark: these values override the ones above */
+/* Always dark: these values override the ones above (same palette as the homepage) */
 :root {
-    --paper: #0F1526; --cell: #1B233A; --ink: #E9EDF5; --muted: #9AA3B8;
-    --tile: #6F86FF; --line: #26304A; --raised: #151D33;
+    --paper: #070A16; --cell: #1B2444; --ink: #EEF1FA; --muted: #98A2BF;
+    --tile: #6F86FF; --line: #222B4F; --line-2: #2F3A66; --raised: #111833;
     --ok: #4ED69B; --ok-bg: rgba(78, 214, 155, 0.14);
   }
 *, *::before, *::after { box-sizing: border-box; }
@@ -28,20 +28,32 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(
 a { color: inherit; text-underline-offset: 0.15em; }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--tile); outline-offset: 3px; border-radius: 4px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-.wrap { width: min(1200px, 100% - 3rem); margin-inline: auto; }
+.wrap { width: min(1180px, 100% - 3rem); margin-inline: auto; }
 
-/* ---------- Header and footer ---------- */
-.top { display: flex; align-items: baseline; justify-content: space-between; padding-block: 1.75rem; gap: 1rem; }
-.mark { font-weight: 800; font-stretch: 125%; font-size: 1.125rem; letter-spacing: -0.01em; text-decoration: none; }
+/* ---------- Header and footer (same as the homepage) ---------- */
+html { scroll-padding-top: 5rem; }
+body { -webkit-font-smoothing: antialiased; }
+.site-head { position: sticky; top: 0; z-index: 40; background: rgba(7, 10, 22, 0.82); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(34, 43, 79, 0.7); }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 4.25rem; }
+.mark { display: inline-flex; align-items: center; gap: 0.7rem; font-weight: 800; font-stretch: 122%; font-size: 1.1rem; letter-spacing: -0.01em; text-decoration: none; white-space: nowrap; }
+.mark svg { width: 2rem; height: 2rem; flex: none; }
 .top nav { display: flex; gap: 1.75rem; }
-.top nav a { text-decoration: none; color: var(--muted); }
+.top nav a { text-decoration: none; color: var(--muted); font-weight: 600; font-size: 0.98rem; white-space: nowrap; }
 .top nav a:hover, .top nav a[aria-current="page"] { color: var(--ink); }
-footer { border-top: 1px solid var(--line); padding-block: 2rem 2.5rem; color: var(--muted); font-size: 0.9rem; }
-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.75rem 2rem; }
-footer p { margin: 0; }
-footer nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+footer { border-top: 1px solid var(--line); background: #05070F; padding-block: clamp(2.5rem, 5vw, 3.5rem) 2rem; color: var(--muted); font-size: 0.95rem; }
+.foot-grid { display: grid; grid-template-columns: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr)); gap: 2rem 2.5rem; }
+.foot-brand p { margin: 0.9rem 0 0; max-width: 22rem; }
+.foot-grid h2 { margin: 0 0 0.9rem; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); }
+footer nav { display: grid; gap: 0.55rem; justify-items: start; }
 footer a { text-decoration: none; }
 footer a:hover { color: var(--ink); text-decoration: underline; }
+footer .mark { color: var(--ink); }
+footer p { margin: 0; }
+.foot-base { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); font-size: 0.88rem; }
+@media (max-width: 980px) { .foot-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .foot-brand { grid-column: 1 / -1; } }
+@media (max-width: 760px) { .top nav a.opt { display: none; } .top nav { gap: 1.1rem; } }
+@media (max-width: 620px) { .foot-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 400px) { .top nav a.opt2 { display: none; } }
 
 /* ---------- Text pages ---------- */
 .doc { padding-block: clamp(2rem, 5vw, 4rem) clamp(4rem, 8vw, 6rem); }
@@ -66,7 +78,7 @@ table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: 0.9
 th, td { text-align: left; vertical-align: top; padding: 0.65rem 0.9rem 0.65rem 0; border-bottom: 1px solid var(--line); }
 th { font-weight: 700; }
 .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 2rem 0; max-width: 60rem; }
-.card { background: var(--raised); border: 1px solid var(--line); border-radius: 16px; padding: 1.4rem 1.5rem; }
+.card { background: var(--raised); border: 1px solid var(--line); border-radius: 20px; padding: 1.4rem 1.5rem; }
 article .card h3 { margin: 0 0 0.5rem; font-size: 1.15rem; font-stretch: 105%; }
 .card p { margin: 0; color: var(--muted); }
 .card p + p { margin-top: 0.5rem; }
@@ -142,16 +154,11 @@ article .card h3 { margin: 0 0 0.5rem; font-size: 1.15rem; font-stretch: 105%; }
   .release { grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) {
-  .wrap { width: min(1200px, 100% - 2.5rem); }
-  .top nav { gap: 1rem; }
+  .wrap { width: min(1180px, 100% - 2.5rem); }
   .game-head { grid-template-columns: 1fr; }
   .game-card { grid-template-columns: 1fr; }
   .items li { grid-template-columns: 1fr; gap: 0.3rem; }
 }
-@media (max-width: 480px) {
-  .top nav a:first-child { display: none; }
-}
-.mark, .top nav a { white-space: nowrap; }
 @media (prefers-reduced-motion: reduce) { .game-card { transition: none; } }
 
 /* Language menu (8 languages): a button with the current language that opens a list, no JavaScript needed. */
@@ -171,5 +178,5 @@ article .card h3 { margin: 0 0 0.5rem; font-size: 1.15rem; font-stretch: 105%; }
 .doc h1 { -webkit-hyphens: auto; hyphens: auto; overflow-wrap: break-word; }
 /* Korean: wrap between words, not inside them. */
 :lang(ko) { word-break: keep-all; }
-/* Very narrow phones (320 px): patch notes stay in the footer. */
-@media (max-width: 340px) { .top nav a[href="/patch-notes/"] { display: none; } }
+/* Pages that start with the breadcrumb (patch notes of one game): room under the sticky header. */
+main > .crumbs:first-child { margin-top: clamp(1.5rem, 3vw, 2.25rem); }

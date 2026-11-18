@@ -49,6 +49,14 @@
   font-display: swap;
   src: url("/assets/archivo.woff2") format("woff2");
 }
+/* while Archivo loads, wide headings use a local font scaled to the same width, so nothing jumps */
+@font-face {
+  font-family: "Archivo Wide Fallback";
+  src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"), local("Arimo Bold"), local("Helvetica Neue Bold"), local("Helvetica-Bold");
+  font-weight: 700 900;
+  size-adjust: 124%;
+  unicode-range: U+0000-024F, U+2000-206F;
+}
 
 :root {
   --bg: #070A16;
@@ -144,7 +152,7 @@ p { margin: 0; }
   background-image: linear-gradient(rgba(152, 162, 191, 0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(152, 162, 191, 0.06) 1px, transparent 1px);
   background-size: 44px 44px; -webkit-mask-image: linear-gradient(180deg, #000, transparent 85%); mask-image: linear-gradient(180deg, #000, transparent 85%); }
 .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: center; padding-block: clamp(3rem, 7vw, 6rem) clamp(3rem, 7vw, 5.5rem); }
-.hero h1 { margin-top: 1.4rem; overflow-wrap: break-word; font-size: clamp(2.3rem, 6.6vw, 5.1rem); line-height: 0.98; font-stretch: 122%; letter-spacing: -0.035em; }
+.hero h1 { font-family: "Archivo", "Archivo Wide Fallback", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; margin-top: 1.4rem; overflow-wrap: break-word; font-size: clamp(2.3rem, 6.6vw, 5.1rem); line-height: 0.98; font-stretch: 122%; letter-spacing: -0.035em; }
 .hero h1 em { font-style: normal; background: linear-gradient(92deg, var(--cyan), var(--brand) 55%, var(--pink)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .lede { margin-top: 1.5rem; max-width: 34rem; font-size: clamp(1.1rem, 1.7vw, 1.28rem); color: var(--muted); }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 0.85rem; margin-top: 2.1rem; }
@@ -170,7 +178,7 @@ p { margin: 0; }
 .mh-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem 3rem; align-items: end; margin-bottom: clamp(2.5rem, 5vw, 3.75rem); }
 .mh-id { display: flex; align-items: center; gap: 1.25rem; margin: 1.3rem 0 1.5rem; }
 .mh-id img { width: clamp(4.5rem, 9vw, 6.25rem); height: auto; aspect-ratio: 1; border-radius: 22%; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 16px 40px -10px rgba(63, 224, 255, 0.35); flex: none; }
-.mh h2 { font-size: clamp(2.5rem, 6vw, 4.6rem); line-height: 0.95; font-stretch: 125%; letter-spacing: -0.035em; }
+.mh h2 { font-family: "Archivo", "Archivo Wide Fallback", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: clamp(2.5rem, 6vw, 4.6rem); line-height: 0.95; font-stretch: 125%; letter-spacing: -0.035em; }
 .mh h2 .subtitle { display: block; margin-top: 0.55rem; font-size: 0.32em; font-weight: 700; font-stretch: 112%; letter-spacing: 0.08em; text-transform: uppercase; line-height: 1.2; color: var(--pink); }
 .mh .pitch { max-width: 40rem; font-size: 1.2rem; color: #C9D0E6; }
 .stores { display: grid; gap: 0.7rem; justify-items: start; }
@@ -366,15 +374,15 @@ footer .mark { color: var(--ink); }
           <a class="btn ghost" href="#more-games">Todos nuestros juegos</a>
         </p>
         <a class="featured" href="/es/mob-holdout/">
-          <img src="/assets/mh/icon.png" width="256" height="256" alt="">
+          <img src="/assets/mh/icon.webp" width="256" height="256" alt="">
           <span><small>Nuestro primer lanzamiento</small><b>Mob Holdout: Mafia Defense</b><span>Próximamente · App Store · Google Play</span></span>
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4l6 6-6 6"/></svg>
         </a>
       </div>
       <div class="hero-stage" role="img" aria-label="Mob Holdout: Mafia Defense">
-        <div class="ph l"><img src="/assets/mh/battle.jpg" width="600" height="1304" alt=""></div>
-        <div class="ph r"><img src="/assets/mh/raid.jpg" width="600" height="1304" alt=""></div>
-        <div class="ph c"><img src="/assets/mh/city.jpg" width="600" height="1304" alt="" fetchpriority="high"></div>
+        <div class="ph l"><img src="/assets/mh/battle.webp" width="600" height="1304" alt="" fetchpriority="high"></div>
+        <div class="ph r"><img src="/assets/mh/raid.webp" width="600" height="1304" alt="" fetchpriority="high"></div>
+        <div class="ph c"><img src="/assets/mh/city.webp" width="600" height="1304" alt="" fetchpriority="high"></div>
       </div>
     </div>
   </div>
@@ -386,7 +394,7 @@ footer .mark { color: var(--ink); }
         <div>
           <p class="eyebrow">Nuestro juego principal</p>
           <div class="mh-id">
-            <img src="/assets/mh/icon.png" width="256" height="256" alt="">
+            <img src="/assets/mh/icon.webp" width="256" height="256" alt="">
             <h2 id="mh-title">Mob Holdout<span class="sr-only">:</span> <span class="subtitle">Mafia Defense</span></h2>
           </div>
           <p class="pitch">Mob Holdout es un juego de defensa trepidante y lleno de neón. Ponte tras la torreta de tu muro, elige las mejoras adecuadas y detén oleada tras oleada de gánsteres, camiones blindados y jefes de la mafia antes de que rompan tu defensa.</p>
@@ -405,12 +413,12 @@ footer .mark { color: var(--ink); }
       </ul>
 
       <ul class="feats">
-        <li class="feat" style="--c:var(--cyan)"><div class="shot" style="--y:46%"><img src="/assets/mh/city.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>CONSTRUYE TU CIUDAD</h3><p>Tu hacienda es tu base: una ciudad en 3D llena de luz que crece contigo. Mejora tu mansión, la cámara acorazada, las torres y mucho más, y cobra ingresos mientras no estás.</p></div></li>
-        <li class="feat" style="--c:var(--pink)"><div class="shot" style="--y:92%"><img src="/assets/mh/battle.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>Defiende tu calle de la mafia</h3><p>La mafia viene a por tu calle. Tú eres la última línea de defensa.</p></div></li>
-        <li class="feat" style="--c:var(--gold)"><div class="shot" style="--y:33%"><img src="/assets/mh/upgrade.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>CREA TU ARSENAL</h3><p>Cada combate es distinto. Elige entre decenas de mejoras: rayos en cadena, balas de rebote, drones, munición explosiva, morteros y más. Combínalas en evoluciones poderosas.</p></div></li>
-        <li class="feat" style="--c:var(--pink)"><div class="shot" style="--y:30%"><img src="/assets/mh/raid.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>ASALTA HACIENDAS RIVALES</h3><p>Elige tu cuadrilla, revienta el portón y llévate el botín. Sube de división, gana trofeos y defiende tu propia hacienda de otros jugadores.</p></div></li>
-        <li class="feat" style="--c:#B79CFF"><div class="shot" style="--y:30%"><img src="/assets/mh/capos.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>RECLUTA CAPOS LEGENDARIOS</h3><p>Desbloquea ocho capos, cada uno con un superataque único, ventajas y niveles de maestría. Carga la definitiva y dale la vuelta al combate.</p></div></li>
-        <li class="feat" style="--c:var(--cyan)"><div class="shot" style="--y:55%"><img src="/assets/mh/missions.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>1000 MISIONES Y MODO INFINITO</h3><p>Supera 1000 misiones repartidas en 20 capítulos y consigue tres estrellas en cada una. O comprueba cuánto aguantas en Infinito.</p></div></li>
+        <li class="feat" style="--c:var(--cyan)"><div class="shot" style="--y:46%"><img src="/assets/mh/city.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>CONSTRUYE TU CIUDAD</h3><p>Tu hacienda es tu base: una ciudad en 3D llena de luz que crece contigo. Mejora tu mansión, la cámara acorazada, las torres y mucho más, y cobra ingresos mientras no estás.</p></div></li>
+        <li class="feat" style="--c:var(--pink)"><div class="shot" style="--y:92%"><img src="/assets/mh/battle.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>Defiende tu calle de la mafia</h3><p>La mafia viene a por tu calle. Tú eres la última línea de defensa.</p></div></li>
+        <li class="feat" style="--c:var(--gold)"><div class="shot" style="--y:33%"><img src="/assets/mh/upgrade.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>CREA TU ARSENAL</h3><p>Cada combate es distinto. Elige entre decenas de mejoras: rayos en cadena, balas de rebote, drones, munición explosiva, morteros y más. Combínalas en evoluciones poderosas.</p></div></li>
+        <li class="feat" style="--c:var(--pink)"><div class="shot" style="--y:30%"><img src="/assets/mh/raid.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>ASALTA HACIENDAS RIVALES</h3><p>Elige tu cuadrilla, revienta el portón y llévate el botín. Sube de división, gana trofeos y defiende tu propia hacienda de otros jugadores.</p></div></li>
+        <li class="feat" style="--c:#B79CFF"><div class="shot" style="--y:30%"><img src="/assets/mh/capos.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>RECLUTA CAPOS LEGENDARIOS</h3><p>Desbloquea ocho capos, cada uno con un superataque único, ventajas y niveles de maestría. Carga la definitiva y dale la vuelta al combate.</p></div></li>
+        <li class="feat" style="--c:var(--cyan)"><div class="shot" style="--y:55%"><img src="/assets/mh/missions.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>1000 MISIONES Y MODO INFINITO</h3><p>Supera 1000 misiones repartidas en 20 capítulos y consigue tres estrellas en cada una. O comprueba cuánto aguantas en Infinito.</p></div></li>
       </ul>
       <ul class="extras">
         <li><h3>LIDERA A TU FAMILIA</h3><p>Funda una familia o únete a una. Chatead, ayudaos, investigad bonificaciones juntos y enfrentaos cada semana al Jefe de la familia.</p></li>

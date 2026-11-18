@@ -49,6 +49,14 @@
   font-display: swap;
   src: url("/assets/archivo.woff2") format("woff2");
 }
+/* while Archivo loads, wide headings use a local font scaled to the same width, so nothing jumps */
+@font-face {
+  font-family: "Archivo Wide Fallback";
+  src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"), local("Arimo Bold"), local("Helvetica Neue Bold"), local("Helvetica-Bold");
+  font-weight: 700 900;
+  size-adjust: 124%;
+  unicode-range: U+0000-024F, U+2000-206F;
+}
 
 :root {
   --bg: #070A16;
@@ -144,7 +152,7 @@ p { margin: 0; }
   background-image: linear-gradient(rgba(152, 162, 191, 0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(152, 162, 191, 0.06) 1px, transparent 1px);
   background-size: 44px 44px; -webkit-mask-image: linear-gradient(180deg, #000, transparent 85%); mask-image: linear-gradient(180deg, #000, transparent 85%); }
 .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: center; padding-block: clamp(3rem, 7vw, 6rem) clamp(3rem, 7vw, 5.5rem); }
-.hero h1 { margin-top: 1.4rem; overflow-wrap: break-word; font-size: clamp(2.3rem, 6.6vw, 5.1rem); line-height: 0.98; font-stretch: 122%; letter-spacing: -0.035em; }
+.hero h1 { font-family: "Archivo", "Archivo Wide Fallback", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; margin-top: 1.4rem; overflow-wrap: break-word; font-size: clamp(2.3rem, 6.6vw, 5.1rem); line-height: 0.98; font-stretch: 122%; letter-spacing: -0.035em; }
 .hero h1 em { font-style: normal; background: linear-gradient(92deg, var(--cyan), var(--brand) 55%, var(--pink)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .lede { margin-top: 1.5rem; max-width: 34rem; font-size: clamp(1.1rem, 1.7vw, 1.28rem); color: var(--muted); }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 0.85rem; margin-top: 2.1rem; }
@@ -170,7 +178,7 @@ p { margin: 0; }
 .mh-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem 3rem; align-items: end; margin-bottom: clamp(2.5rem, 5vw, 3.75rem); }
 .mh-id { display: flex; align-items: center; gap: 1.25rem; margin: 1.3rem 0 1.5rem; }
 .mh-id img { width: clamp(4.5rem, 9vw, 6.25rem); height: auto; aspect-ratio: 1; border-radius: 22%; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 16px 40px -10px rgba(63, 224, 255, 0.35); flex: none; }
-.mh h2 { font-size: clamp(2.5rem, 6vw, 4.6rem); line-height: 0.95; font-stretch: 125%; letter-spacing: -0.035em; }
+.mh h2 { font-family: "Archivo", "Archivo Wide Fallback", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: clamp(2.5rem, 6vw, 4.6rem); line-height: 0.95; font-stretch: 125%; letter-spacing: -0.035em; }
 .mh h2 .subtitle { display: block; margin-top: 0.55rem; font-size: 0.32em; font-weight: 700; font-stretch: 112%; letter-spacing: 0.08em; text-transform: uppercase; line-height: 1.2; color: var(--pink); }
 .mh .pitch { max-width: 40rem; font-size: 1.2rem; color: #C9D0E6; }
 .stores { display: grid; gap: 0.7rem; justify-items: start; }
@@ -366,15 +374,15 @@ footer .mark { color: var(--ink); }
           <a class="btn ghost" href="#more-games">Alle vores spil</a>
         </p>
         <a class="featured" href="/da/mob-holdout/">
-          <img src="/assets/mh/icon.png" width="256" height="256" alt="">
+          <img src="/assets/mh/icon.webp" width="256" height="256" alt="">
           <span><small>Vores første udgivelse</small><b>Mob Holdout: Mafia Defense</b><span>Kommer snart · App Store · Google Play</span></span>
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4l6 6-6 6"/></svg>
         </a>
       </div>
       <div class="hero-stage" role="img" aria-label="Mob Holdout: Mafia Defense">
-        <div class="ph l"><img src="/assets/mh/battle.jpg" width="600" height="1304" alt=""></div>
-        <div class="ph r"><img src="/assets/mh/raid.jpg" width="600" height="1304" alt=""></div>
-        <div class="ph c"><img src="/assets/mh/city.jpg" width="600" height="1304" alt="" fetchpriority="high"></div>
+        <div class="ph l"><img src="/assets/mh/battle.webp" width="600" height="1304" alt="" fetchpriority="high"></div>
+        <div class="ph r"><img src="/assets/mh/raid.webp" width="600" height="1304" alt="" fetchpriority="high"></div>
+        <div class="ph c"><img src="/assets/mh/city.webp" width="600" height="1304" alt="" fetchpriority="high"></div>
       </div>
     </div>
   </div>
@@ -386,7 +394,7 @@ footer .mark { color: var(--ink); }
         <div>
           <p class="eyebrow">Vores hovedspil</p>
           <div class="mh-id">
-            <img src="/assets/mh/icon.png" width="256" height="256" alt="">
+            <img src="/assets/mh/icon.webp" width="256" height="256" alt="">
             <h2 id="mh-title">Mob Holdout<span class="sr-only">:</span> <span class="subtitle">Mafia Defense</span></h2>
           </div>
           <p class="pitch">Mob Holdout er et hurtigt forsvarsspil badet i neon. Bemand kanonen bag din mur, vælg de rigtige opgraderinger, og stop bølge efter bølge af gangstere, pansrede lastbiler og mafiabosser, før de bryder igennem.</p>
@@ -405,12 +413,12 @@ footer .mark { color: var(--ink); }
       </ul>
 
       <ul class="feats">
-        <li class="feat" style="--c:var(--cyan)"><div class="shot" style="--y:46%"><img src="/assets/mh/city.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>BYG DIN BY</h3><p>Dit gods er din base: en lysende 3D-by, der vokser med dig. Opgradér din villa, boksen, tårnene og meget mere, og tjen penge, mens du er væk.</p></div></li>
-        <li class="feat" style="--c:var(--pink)"><div class="shot" style="--y:92%"><img src="/assets/mh/battle.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>Forsvar din gade mod mafiaen</h3><p>Mafiaen er på vej mod din gade. Du er den sidste forsvarslinje.</p></div></li>
-        <li class="feat" style="--c:var(--gold)"><div class="shot" style="--y:33%"><img src="/assets/mh/upgrade.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>BYG DIT ARSENAL</h3><p>Hver kamp er forskellig. Vælg mellem snesevis af opgraderinger: kædelyn, rikochetter, droner, sprængammunition, morterer og meget mere. Kombinér dem til stærke evolutioner.</p></div></li>
-        <li class="feat" style="--c:var(--pink)"><div class="shot" style="--y:30%"><img src="/assets/mh/raid.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>RØV RIVALERNES GODSER</h3><p>Vælg dit hold, bryd gennem porten, og tag byttet. Stig i divisionerne, vind trofæer, og forsvar dit eget gods mod andre spillere.</p></div></li>
-        <li class="feat" style="--c:#B79CFF"><div class="shot" style="--y:30%"><img src="/assets/mh/capos.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>REKRUTTÉR LEGENDARISKE CAPOER</h3><p>Lås otte capoer op, hver med sit eget superangreb, sine fordele og mesterskabsniveauer. Lad superangrebet op, og vend kampen.</p></div></li>
-        <li class="feat" style="--c:var(--cyan)"><div class="shot" style="--y:55%"><img src="/assets/mh/missions.jpg" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>1.000 MISSIONER OG UENDELIG</h3><p>Kæmp dig gennem 1.000 missioner fordelt på 20 kapitler, og få tre stjerner i dem alle. Eller se, hvor længe du holder stand i Uendelig.</p></div></li>
+        <li class="feat" style="--c:var(--cyan)"><div class="shot" style="--y:46%"><img src="/assets/mh/city.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>BYG DIN BY</h3><p>Dit gods er din base: en lysende 3D-by, der vokser med dig. Opgradér din villa, boksen, tårnene og meget mere, og tjen penge, mens du er væk.</p></div></li>
+        <li class="feat" style="--c:var(--pink)"><div class="shot" style="--y:92%"><img src="/assets/mh/battle.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>Forsvar din gade mod mafiaen</h3><p>Mafiaen er på vej mod din gade. Du er den sidste forsvarslinje.</p></div></li>
+        <li class="feat" style="--c:var(--gold)"><div class="shot" style="--y:33%"><img src="/assets/mh/upgrade.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>BYG DIT ARSENAL</h3><p>Hver kamp er forskellig. Vælg mellem snesevis af opgraderinger: kædelyn, rikochetter, droner, sprængammunition, morterer og meget mere. Kombinér dem til stærke evolutioner.</p></div></li>
+        <li class="feat" style="--c:var(--pink)"><div class="shot" style="--y:30%"><img src="/assets/mh/raid.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>RØV RIVALERNES GODSER</h3><p>Vælg dit hold, bryd gennem porten, og tag byttet. Stig i divisionerne, vind trofæer, og forsvar dit eget gods mod andre spillere.</p></div></li>
+        <li class="feat" style="--c:#B79CFF"><div class="shot" style="--y:30%"><img src="/assets/mh/capos.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>REKRUTTÉR LEGENDARISKE CAPOER</h3><p>Lås otte capoer op, hver med sit eget superangreb, sine fordele og mesterskabsniveauer. Lad superangrebet op, og vend kampen.</p></div></li>
+        <li class="feat" style="--c:var(--cyan)"><div class="shot" style="--y:55%"><img src="/assets/mh/missions.webp" width="600" height="1304" loading="lazy" alt=""></div><div class="txt"><h3>1.000 MISSIONER OG UENDELIG</h3><p>Kæmp dig gennem 1.000 missioner fordelt på 20 kapitler, og få tre stjerner i dem alle. Eller se, hvor længe du holder stand i Uendelig.</p></div></li>
       </ul>
       <ul class="extras">
         <li><h3>LED DIN FAMILIE</h3><p>Stift en familie, eller slut dig til en. Chat, hjælp hinanden, forsk i bonusser sammen, og tag kampen op mod ugens Familieboss.</p></li>
